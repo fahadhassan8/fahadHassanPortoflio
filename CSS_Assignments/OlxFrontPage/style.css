@@ -1,0 +1,801 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    position: fixed;
+    top:0px;
+    padding: 0px;
+    z-index: 1;
+}
+.w-100 {
+    width: 100%!important;
+    margin-top: 200px;
+}
+.hamburger{
+    display: none;
+}
+.box1{
+    background-color: #f7f8f8;
+    width:100%;
+    height:70px;
+    display: flex;
+    align-items: center;
+}
+.olx-blue-logo{
+    width: 3rem;
+    height: 1.5rem;
+    margin-left: 40px;
+}
+.logo > i{
+    background-color: #f2f2f2;
+    border:1px solid #f2f2f2;
+    height:30px;
+    width:30px;
+    border-radius: 60px;
+}
+i{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+}
+td>a{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: cursive;   
+}
+.car,.building{
+    margin-left: 30px;
+    font-weight: bold;
+}
+td>a:hover{
+    color:#3a77ff;
+}
+.box2{
+    background-color: #f7f8f8;
+    width:100%;
+    height:65px;
+    display: flex;
+    justify-content:space-around ;
+}
+.olx-black-logo{
+    width: 4.3rem;
+    height: 2.5rem;
+}
+.drop-down{
+    width:280px;
+    height:49px;
+    font-family: cursive;
+    border: 4px solid black;
+    border-radius: 6px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.input-button>input{
+    width:350px;
+    height:49px;
+    font-family: cursive;
+    border: 4px solid black;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.input-button{
+    display: flex;
+}
+.search-icon-box{
+    width:50px;
+    height:49px;
+    background-color: #000;
+    border-top-right-radius: 6px;
+}
+.search-icon-box>i{
+    color:#fff;
+    padding: 15px;
+}
+.login>a{
+    font-family: sans-serif;
+    font-weight: bold;
+    color:black;
+    font-size: 20px;
+    margin-right: 25px;
+}
+.login>a:hover{
+    text-decoration: none;
+}
+.sell-button{
+    text-transform: uppercase;
+    width:120px;
+    height:50px;
+    padding-bottom: 4px;
+    border-radius: 60px;
+    background-color: #fff;
+    border-bottom: 5px solid #3a77ff;
+    border-top: 5px solid #3a77ff;
+    border-left: 5px solid #ffce32;
+    border-right: 5px solid #23e5db;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sell-button i{
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+    padding-right:0.4rem;
+    font-weight: 900px;
+}
+.sticky-nav{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height:50px;
+    width:100%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 13px;
+    list-style: none;
+}
+ul>li{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+ul>li:hover{
+    color:#3a77ff;
+    cursor: pointer;
+}
+.section-one{
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2.5rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+.section-one img{
+    border:1px solid #fff;
+    width:8rem;
+}
+h3 {
+    padding-top: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.All-sec-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.All-sec-heading>h3{
+    padding-top: 3.5rem;
+    font-family: cursive;
+    font-weight: bold;
+    color: #002f34;
+    font-size: 2rem;
+}
+.All-sec-heading > h5{
+    font-size: 2rem;
+    padding-top: 3.5rem;
+    font-family: cursive;
+    font-weight: bold;
+    color:#3a77ff;
+    cursor: pointer;
+}
+.All-sec-heading > h5 > i{
+    padding-left: 5px;
+    font-size: 1rem;
+}
+.section-one p{
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    color:#222;
+    margin-left:1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    text-align: center;
+}
+.sectionTwo{
+    z-index: -1;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-two-card{
+    cursor: pointer;
+    width:18rem;
+}
+.section-two-card > img{
+    height:23vh;
+}
+.section-two-card-title>h5>i{
+    font-size: 1.7rem;
+}
+.section-two-card-title{
+    display: flex;
+    justify-content: space-between;
+}
+.cRd-text{
+    height:16vh;
+    padding-bottom: 1rem;
+}
+.cRd-text>p{
+    text-align: left;
+    line-height: 1.4rem;
+}
+.grouping{
+    font-size: 0.8rem;
+    margin-left: 1.2rem;
+}
+.card-text{
+    padding-right: 1rem;
+}
+.lastSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:5rem;
+}
+.lastSecBox1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30vh;
+    width:55%;
+    background-color: #f7f8f8;
+}
+.lastSectionMobimg img{
+    height:30vh;
+}
+.lastSecBox2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    height:30vh;
+    width:45%;
+    background-color:#f7f8f8 ;
+}
+.lastSectionHeading{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #212121;
+}
+.lastSectionLogo img{
+    width:10vw;
+    padding-top: 1rem;
+}
+.line{
+    width: 0.2rem;
+    background-color: #002f3433;
+    height: 11rem;
+}
+.footer{
+    display: flex;
+    background-color: #ebeeef;
+    border-top:1px solid #002f3433;
+    height:30vh;
+}
+.footerPartOne{
+    width:60%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.footerMainContent{
+    display: flex;
+    flex-direction: column;
+}
+.footerServicesHeading{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-family: cursive;
+    font-weight: 600;
+}
+.footerAboutServices{
+    color:#7a7b7b;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.footerAboutServices:hover{
+    color:#000;
+}
+.footerPartTwo{
+    width:40%;
+    padding-bottom: 2.5rem;
+    padding-left: 4.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.footerPartTwo h5{
+    font-family: cursive;
+    font-weight: 600;
+}
+.footerContactLogo i{
+    padding-left: 0.2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    color:#7a7b7b;
+}
+.footerContactLogo i:hover{
+    color:#000;
+}
+.footerImages{
+    display: flex;
+    width:7rem;
+    cursor: pointer;
+    column-gap: 1rem;
+    padding-top: 2.5rem;
+}
+.footerPartThree{
+    background-color: #002f34;
+    width:100%;
+    height:10vh;
+}
+.footerPartThree h6{
+    padding-top:1.8rem;
+    padding-left: 48.5rem;
+    color:#fff;
+    font-family: cursive;
+    font-weight: 500px;
+}
+.go-to-top{
+    position: relative;
+    width: 100%;
+    height: 10vh;
+}
+.go-to-top i{
+    font-size: 4rem;
+    position: absolute;
+    right:38.5rem;
+    top:2.5rem;
+    color: #212121;
+    cursor:all-scroll;
+}
+.go-to-top i:hover{
+    color:#3a77ff;
+}
+
+@media only screen and (max-width:425px){
+    *{
+        overflow-x: hidden;
+    }
+    .w-100 {
+        width: 100%!important;
+        margin-top: 250px;
+    }
+    .box1{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    td>a{
+        font-family: sans-serif;
+        margin-right: 16px;
+    }
+    .drop-down{
+        font-family: sans-serif;
+    }
+    .input-button>input{
+        font-family: sans-serif;
+    }
+    .hamburger{
+        display:contents;
+        
+    }
+    .hamburger>i{
+        font-size: 1.6rem;
+    }
+    .box1{
+        width:100vw;
+        justify-content: space-around;
+    }
+    .olx-blue-logo{
+        width: 3rem;
+        height: 1.5rem;
+        margin-left: 0px;
+    }
+    .logo > i{
+        height:20px;
+        width:20px;
+        border-radius: 10px;
+    }
+    i{
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    td>a{
+        font-size: 12px;   
+    }
+    .car,.building{
+        margin-left: 30px;
+    }
+    .box2{
+        width:100vw;
+        height:15vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .olx-black-logo{
+        display: none;
+    }
+    .login>a{
+        display: none;
+    }
+    .drop-down{
+        width:40vw;
+        height:5vh;
+        border-radius: 4px;
+        padding-left: 7px;
+    }
+    .input-button>input{
+        width:80vw;
+        height:6vh;
+    }
+    .search-icon-box{
+        width:10vw;
+        height:6.0vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-icon-box>i{
+        color:#fff;
+        padding: 0px;
+        font-size: 1.1rem;
+    }
+    .sticky-nav{
+        width:100vw;
+        height:10vh;
+        
+    }
+    .sticky-nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap:10px;
+        justify-content: flex-start;
+    }
+    ul>li{
+        font-family: sans-serif;
+        font-size: 11px;
+    }
+    .carousel img{
+       height:20vh; 
+     }
+    .section-one{
+        column-gap: 2.2rem;
+        line-height: 1.2rem;
+        padding-top: 2.0rem;
+        cursor: pointer;
+    }
+    .section-one img{
+        width:5rem;
+    }
+    .section-one p{
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        margin-left: 0.3rem;
+    }
+    .section-two-card{
+        width:10.5rem;
+    }
+    .section-two-card-title>h5{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .section-two-card-title>h5>i{
+        font-size: 1rem;
+        margin-right: 20px;
+    }
+    .section-two-card > img{
+        height:18vh;
+        width:100%;
+    }
+    .cRd-text{
+        height:12vh;
+        padding-bottom: 0.6rem;
+    }
+    .cRd-text>p{
+        text-align: left;
+        line-height: 0.87rem;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .grouping{
+        font-size: 0.6rem;
+        margin-right: 1rem;
+    }
+    .crd-body{
+        width:12.5rem;
+        height:19vh;
+        overflow-y: hidden;
+    }
+    .sell-button{
+        position: fixed;
+        z-index: 1;
+        bottom: 50px;
+        right:50px;
+        width:22%;
+        height:5.5vh;
+        font-size: 1rem;
+        padding-bottom: 0.24rem;
+        padding-left: 1rem;
+        overflow-y: hidden;
+    }
+    .sell-button i{
+        position: absolute;
+        font-size: 1rem;
+        bottom: 0.5rem;
+        left:0.8rem;
+    }
+    .All-sec-heading>h5{
+        font-family: sans-serif;
+        font-size: 1rem;
+    }
+    .All-sec-heading>h5>i{
+        font-size: 0.8rem;
+    }
+    .All-sec-heading>h3{
+        font-size: 1rem;
+        font-family: sans-serif;
+    }
+    .lastSection{
+        width:100%;
+        margin-top: 2rem;
+    }
+    .lastSectionMobimg img{
+        height:20vh;
+        width:42vw;
+    }
+    .lastSecBox1{
+        height:20vh;
+    }
+    .lastSecBox2{
+        height:20vh;
+        padding-left: 1rem;
+    }
+    .line{
+        height:7rem;
+    }
+    .lastSectionHeading{
+        font-size:0.7rem;
+        font-weight: 700;
+    }
+    .lastSectionLogo img{
+        width:10.2vw;
+        padding-top:0rem;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column-reverse;
+        height:30vh;
+    }
+    .footerPartOne{
+        width:100%;
+        height:35vh;
+        display: flex;  
+        align-items: start;
+        text-align: center;
+        overflow-y: hidden;
+    }
+    .footerMainContent{
+        width:85%;
+    }
+    .footerServicesHeading{
+        width:85%;
+        margin-bottom: 0rem;
+        font-size: 0.5rem;
+    }
+    .footerAboutServices{
+        font-size: 0.5rem;
+        color:#474848;
+    }
+    .footerAboutServices:hover{
+        color:#3e13ea;
+    }
+    .footerPartTwo{
+        width:100%;
+        height:35vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: hidden;
+    }
+    .footerPartTwo h5 {
+        margin-top: 0.8rem;
+        overflow-y: hidden;
+    }
+    .footerContactLogo{
+        overflow-y: hidden;
+    }
+    .footerContactLogo i{
+        font-size: 0.9rem;
+    }
+    .footerImages{
+        width:12rem;
+        overflow-y: hidden;
+        column-gap: 0.5rem;
+        padding-top: 0.5rem;
+    }    
+    .footerPartThree{
+        width: 100%;
+        height:8vh;
+    }
+    .footerPartThree h6{
+        text-align: center;
+        font-size: 0.6rem;
+        padding-top:1.5rem;
+        padding-left: 0rem;
+        text-align:center;
+        font-weight: 200px;
+        overflow-y: hidden;
+    } 
+    .go-to-top{
+        width:90%;
+        height:7vh;
+    }
+    .hand>i{
+        font-size: 2.6rem;
+        position: absolute;
+        right:8.2rem;
+        top:0.2rem;
+    }
+}
+@media only screen and (max-width:360px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        overflow-x: hidden;
+    }
+    .box1{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    /* .olx-blue-logo{
+        margin-left: 0.6rem;
+    } */
+    td>a{
+        font-family: sans-serif;
+    }
+    .drop-down{
+        font-family: sans-serif;
+    }
+    .input-button>input{
+        font-family: sans-serif;
+    }
+    .sticky-nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap:10px;
+        justify-content: flex-start;
+    }
+    .section-two-card{
+        width:9.1rem;
+    }
+    .crd-body{
+        height:23vh;
+        overflow-y: hidden;
+    }
+    .section-two-card-title{
+        display:inline-block;
+        margin: 0px auto;
+    }
+    .section-two-card-title>h5{
+        font-size: 0.62rem;
+        font-weight: bold;
+    }
+    .section-two-card-title>h5>i{
+        font-size: 1rem;
+        padding-bottom: 0.3rem;
+        margin-right: 0rem;
+    }
+    .cRd-text>p{
+        line-height: 0.71rem;
+        font-size: 7px;   
+    }
+    .grouping{
+        font-size: 0.4rem;
+        line-height: 1rem;
+        text-align: right;
+    }
+    .sell-button{
+        position: fixed;
+        z-index: 1;
+        bottom: 160px;
+        right:20px;
+        height:5vh;
+        font-size: 0.8rem;
+        padding-bottom: 0.1rem;
+        padding-left: 0.8rem;
+        overflow-y: hidden;
+    }
+    .sell-button i{
+        position: absolute;
+        font-size: 0.8rem;
+        bottom: 0.4rem;
+        left:0.6rem;
+    }
+    .lastSection{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .lastSectionMobimg img{
+        height:20vh;
+        width:42vw;
+    }
+    .lastSectionHeading{
+        font-size:0.6rem
+    }
+    .lastSectionLogo img{
+        width:10.5vw;
+    }
+    .footer{
+        padding-right: 1.2rem;
+        height:35vh;
+    }
+    .footerPartOne{
+        width:100%;
+        overflow-y: hidden;
+    }
+    .footerServicesHeading{
+        font-family: sans-serif;
+        margin-bottom: 0rem;
+        font-size: 0.41rem;
+        font-weight: bold;
+    }
+    .hideAt360{
+        display: none;
+    }
+    .footerAboutServices{
+        font-size: 0.4rem;
+        font-family: sans-serif;
+        line-height: 0.5rem;
+    }
+    .footerPartTwo{
+        width:100%;
+        height:35vh;
+        overflow-y: hidden;
+    }
+    .footerPartTwo h5 {
+        font-family: sans-serif;
+        margin-top: 0.6rem;
+        overflow-y: hidden;
+    }
+    .footerContactLogo{
+        overflow-y: hidden;
+        margin:0px auto;
+    }
+    .footerContactLogo i{
+        font-size: 1.4rem;      
+    }
+    .footerImages{
+        width:12rem;
+        overflow-y: hidden;
+        column-gap: 0.5rem;
+        padding-top: 0.5rem;
+    }    
+    .go-to-top{
+        width:90%;
+        height:7vh;
+    }
+    .hand>i{
+        font-size: 2rem;
+        position: absolute;
+        right:7.2rem;
+        top:0.4rem;
+    }
+    .footerPartThree h6{
+        font-family: sans-serif;
+        font-size: 0.7rem;
+    }
+
+
+}

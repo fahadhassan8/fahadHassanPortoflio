@@ -1,0 +1,45 @@
+.background{
+    background: url(images/back-image.jpg)#fff;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 100vh;
+}
+.logo{
+    width:500px;
+    padding-top:30px;
+    margin-left: 10px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.form-label{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:cursive;
+}
+.form-text{
+    font-size: 15px;
+    color: grey;
+    font-style: italic;
+    font-weight: bold;
+}
+.form-check-label{
+    font-size: 15px;
+    color: grey;
+    font-style: italic;
+    font-weight: bold;
+}
+.checkbox > input{
+    border:1px solid grey;
+}
+.email input{
+    border:1px solid grey;
+}
+.password input{
+    border:1px solid grey;
+}
+.submit > button{
+    border-radius: 12px;
+    background-color:  #0d6efd;
+}

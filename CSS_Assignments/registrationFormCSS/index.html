@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1> Student Registration Form</h1>
+    <form action="">
+        <p><label for="First Name">First Name</label>
+            <input placeholder="Enter First Name" size="20" maxlength="10" type="text" name="First Name" required>
+            <br />
+        </p>
+        <p><label for="Last Name">Last Name</label>
+            <input placeholder="Enter Last Name" type="text" maxlength="10" size="20" name="last name" required>
+        </p>
+        <p>
+            <label for="Father name">Father Name</label>
+            <input type="text" name="Father name" placeholder="Enter your Father Name" size="30" maxlength=" 20">
+        </p>
+        <p>
+            <label for="DOB">DOB</label>
+            <input type="date" name="date" size="20">
+        </p>
+        <p><b>Place of Birth.</b></p>
+        <p>
+            <select name="City">
+                <option value="" disabled>-- City --</option>
+                <option value="isb">Islamabad</option>
+                <option value="Khi" selected>Karachi</option>
+                <option value="lhr">Lahore</option>
+                <option value="Kash">Kashmir</option>
+                <option value="rwl">Rawalpindi</option>
+            </select>
+        </p>
+        <p><b>Last Qualification</b></p>
+
+        <p><input type="checkbox" name="Qualification" value="MS">Masters of Studies</p>
+        <p><input type="checkbox" name="Qualification" value="BS">Bachelors of Studies</p>
+        <p><input type="checkbox" name="Qualification" value="inter" checked> Intermeediate </p>
+        <p><input type="checkbox" name="Qualification" value="matric"> Matriculation</p>
+
+        <p><b>Gender</b></p>
+        <label>
+            <p><input type="radio" name="gender" checked value="m">Male</p>
+        </label>
+        <label>
+            <p><input type="radio" name="gender" value="f">Female</p>
+        </label>
+        <label>
+            <p><input type="radio" name="gender" value="NOA">Non of the Above</p>
+        </label>
+
+        <p> <b> House address</b> <br />
+            <input type="text" name="House address" maxlength="50" size="80" placeholder="Enter House Address">
+        </p>
+
+        <p><b>Desired Program</b> <br/>
+                <select name="Desired program" id="">
+                <option value="Select one" disabled selected>-- Select one --</option>
+                <option value="No formal education">No formal education</option>
+                <option value="Primary education">Primary education</option>
+                <option value="Secondary education">Secondary education or high school</option>
+                <option value="GED">GED</option>
+                <option value="Vocational qualification">Vocational qualification</option>
+                <option value="Bachelor's degree">Bachelor's degree</option>
+                <option value="Master's degree">Master's degree</option>
+                <option value="Doctorate or higher">Doctorate or higher</option>
+            </select>
+            </p>
+        <p>
+            <b>Upload Educational Document </b><br />
+            <input type="file">
+        </p>
+        <p>
+            <b>Upload Additional Documents </b><br />
+            <input type="file">
+        </p>
+        <p>
+            <b>Upload White/Blue Background Picture</b> <br />
+            <input type="file">
+        </p>
+        <p><label> <b>Leave your Comment</b> <br />
+                <textarea name="Comment" id="" cols="45" rows="10" placeholder="Enter your Comment"></textarea>
+            </label>
+        </p>
+
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label>Email <br />
+                <input type="email" name="email" required placeholder="example@example.com">
+            </label> <br />
+            <label>Phone <br />
+                <input type="number" name="Phone" required placeholder="021-111111111">
+            </label> <br />
+            <label for="Mobile">Mobile <br /></label>
+            <input type="number" name="Mobile" id="Mobile" required placeholder="03##-#######">
+        </fieldset>
+
+        <button class="text">Submit Form</button>
+        
+    </form>
+    <p><a href="../index.html">Home Page</a></p>
+</body>
+
+</html>

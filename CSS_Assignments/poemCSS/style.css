@@ -1,0 +1,73 @@
+/* @font-face {
+    font-family: "Poppins";
+    src: url(font/Poppins-BlackItalic.ttf);
+}
+h1{
+    font-size: 200%;
+    font-family: poppins;
+} */
+@font-face {
+    font-family:My font;
+    src: url(font/Roboto-BlackItalic.ttf);
+}
+p{
+    font-family: My font;
+    text-shadow: 1px 1px 1px black;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(font/Poppins-BlackItalic.ttf);
+}
+
+h1 {
+    font-size: 300%;
+    font-family: poppins;
+    text-shadow: 2px 2px 2px black;
+}
+h1::first-letter{
+    font-size: 40px;
+}
+
+    /* font-family: sans-serif; */
+    /* 3rd method
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300&display=swap'); */
+body{
+    background-color: black;
+}
+.bg{
+    
+    background-image: url(images/bgimg.png);
+    background-repeat: no-repeat;
+    background-size: 1100px;
+    background-position-x: center;
+    margin: 0px 0px;
+    padding-top:10px;
+}
+.heading{
+    padding-left: 220px;
+    padding-top: 40px;
+    color: brown;
+}
+.para{
+    text-transform: capitalize;
+    padding-left: 220px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    line-height: 40px;
+    word-spacing: 2px;
+    color:brown;
+    text-align: justify;
+}
+.next-button{
+    text-align: center;
+    margin-left: 950px;
+    margin-top:20px;
+    color:brown;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 100px;
+    height:30px;
+    border-radius: 10px;
+    border-style: double;
+}
+

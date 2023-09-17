@@ -1,0 +1,51 @@
+@font-face {
+    font-family: My font;
+    src: url(font/Roboto-BlackItalic.ttf);
+}
+
+p {
+    font-family: My font;
+  
+}
+
+
+
+.box {
+    text-transform: capitalize;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 25px;
+    line-height: 50px;
+    word-spacing: 8px;
+    text-align: justify;
+    width: 500px;
+    height: 350px;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    min-width: 200px;
+    max-width: 700px;
+}
+.previous-button{
+    text-align: center;
+    margin-left: 400px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 100px;
+    height:30px;
+    border-radius: 10px;
+    border-style: double;
+}
+.first::first-letter{
+    font-size: 50px;
+}
+
+.second.second::first-l{
+    font-size: 50px;
+}
+.third::first-letter{
+    font-size: 40px;
+}
+.fourth::first-letter{
+    font-size: 30px;
+}

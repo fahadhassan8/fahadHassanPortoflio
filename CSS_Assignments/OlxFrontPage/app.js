@@ -1,0 +1,1 @@
+alert('Welcome to O|x Landing Page...\nDeveloper fahadHassan.');

@@ -1,0 +1,350 @@
+@font-face {
+    font-family:"My-font1";
+    src: url(fonts/Roboto-Medium.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.leftnav{
+    display: flex;
+    align-items: center;
+    width:70%;
+    
+    /* background-color: #000; */
+}
+.leftnav li{
+    list-style: none;
+    padding:26px 30px;
+
+}
+.leftnav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: My-font1;
+}
+.leftnav li a:hover{
+    text-decoration: none;
+    color: #fff;
+    color:orange;
+}
+.rightnav{
+    /* background-color: blue; */
+    width:30%;
+    text-align: right;
+    padding: 15px 30px;
+}
+#search{
+    padding: 5px;
+    font-size: 16px;
+    height:25px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background1{
+    background: rgba(0, 0, 0, 0.8) url('images/images1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.first-section{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firstHalf{
+    display: flex;
+    width:70%;
+    justify-content: center;
+    flex-direction: column;
+}
+.firstHalf .text-big{
+    font-size: 30px;
+}
+.secondHalf{
+    width:30%;
+}
+.secondHalf > img{
+    width:250px;
+    height:250px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: 2px grey;
+    border-radius: 50%;
+}
+.text-big{
+    font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.text-small{
+    padding-top: 20px;
+    font-size: 17px;
+    font-family: My-font1;
+}
+.btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 8px;;
+    margin: 15px 3px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+.btn>a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn:hover{
+    background-color: orange;
+    color: white;
+}
+.paras{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    padding: 0px 50px;
+}
+.section{
+    height:450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;    
+    margin: auto;
+}
+.Left{
+   flex-direction: row-reverse;
+}
+.thumbnail > img {
+    width:270px;
+    border: 2px solid gray;
+    border-radius: 25px;
+    box-shadow: grey;
+}
+.contact{
+    font-family: My-font1;
+    background-color:rgb(222, 222, 252);
+    height:650px;
+}
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.form{
+    max-width: 800px;
+    margin:20px auto;
+}
+.form-input{
+    width:100%;
+    font-size: 19px;
+    border:2px solid grey;
+    border-radius: 6px;
+    margin:15px 0px;
+    padding: 5px 3px;
+}
+.btn-dark{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 8px;;
+    margin: 7px 3px;
+    font-size: 18px;
+    border: 3px solid grey;
+    border-radius: 15px;
+    background: none;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;;
+}
+.text-footer{
+    font-family: My-font1;
+    text-align: center;
+    padding: 15px 0px;
+    margin: 0px 0px;
+    font-size: 20px;
+    color:#fff;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right:5%;
+    top:15px;
+}
+.line{
+    width:33px;
+    background-color: #fff;
+    height: 4px;
+    margin:5px 3px;
+}
+@media only screen and (max-width: 1113px){
+    .text-big{
+       font-size: 25px; 
+    }
+    .text-small{
+        font-size: 20px;
+    }    
+    .leftnav{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 570px;
+        transition: all 0.8s ease-out;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    #search{
+        width:100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height:72px;
+    }
+    .v-class-resp{
+        opacity:0 ;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .section{
+        flex-direction: column-reverse;
+        height: 800px;    
+    }
+    .thumbnail img{
+        margin-top:30px;
+        width:350px;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .button{
+        text-align: center;
+    }
+    .paras{
+        padding: 10px;
+        margin: 0px;
+    }
+    .form {
+        max-width: 75%;
+        margin: 2px auto;
+    }
+    .form-input{
+        width:100%
+    }
+    .logo img{
+        width: 70px;
+    }
+    .secondHalf img{
+        width:200px;
+        height:200px;
+        margin-top: 10px;
+        margin-right: 30px;
+        border: 1px grey;
+        border-radius: 50%;
+        align-items: center;
+        width: 200px;
+        justify-content: center;
+    }   
+    .text-center{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:481px) {
+    .navbar{
+        position: fixed;
+        z-index: 1;
+    }
+    .thumbnail img{
+        width:250px;   
+    }
+    .secondHalf img{
+        width:150px;
+        height:150px;
+        border-width: 1px;
+        border-radius: 50%;
+        margin-right: 100px;
+    }
+    .first-section{
+        margin-top:30px !important
+    }
+    .image4{
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width:360px){
+    .navbar{
+        position: fixed;
+        z-index: 1;
+    }
+    .first-section{
+        height: 100vh;    
+    }
+    .secondHalf{
+        width:30%;
+    }
+    .secondHalf>img{
+        margin: auto;
+        width:120px;
+        height:120px;
+        border-radius: 240px;
+        margin-top: 100px;
+    }
+      .thumbnail>img{
+           width:250px;
+
+    }
+    .sectionsubtag{
+        font-size: 14px;
+    }
+
+}

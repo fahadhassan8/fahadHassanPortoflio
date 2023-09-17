@@ -1,0 +1,350 @@
+@font-face {
+    font-family: My-Caveat;
+    src: url('fonts/Caveat-SemiBold.ttf');
+}
+ @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Montserrat:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto:wght@100&display=swap');
+ 
+ *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color: #0a0908;
+}
+title{
+    font-family: My-Caveat;
+}
+
+.firstletter{
+    color:#82654b;
+}
+.cssAssignment h1{
+    font-family: My-Caveat;
+    font-size: 3rem;
+    padding: 3rem 0;
+    text-align: center;
+    color: #fff;
+}
+.cssMainWebs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1a1a1a;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 8px 0px;
+    width:100%;
+    height:50vh;
+}
+.cssMainWebs a img{
+    height:40vh;
+    width:32rem;
+    cursor: pointer;
+}
+.cssMainWebs a img:hover{
+    animation-name: pulse;
+    animation-duration: 3s;
+}
+.cssMainWebContent{
+    display: flex;
+    flex-direction: column;
+}
+.cssMainWebContent h1{
+    font-family:'Roboto', sans-serif ;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+}
+.cssMainWebContent h4{
+    font-family:'Roboto', sans-serif ;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    color: #fff;
+}
+.cssMainWebContent h4 a{
+    font-family:'Roboto', sans-serif ;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+}
+.cssMainWebContent h4 a:hover{
+    color: #82654b;
+
+}
+.sectionFour{
+    background-color: #0a0908;
+    width:100%;
+    height:auto;
+}
+.cssMoreAssignments{
+    background-color: #0a0908;
+    width: 100%;
+    height:auto;
+}
+.cssMoreAssignments h1{
+    font-family: My-Caveat;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 3rem;
+    color: #fff;
+}
+.allWebImages{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:0.6rem;
+    margin-top: 4rem;
+    width:16rem;
+    height:30vh;
+}
+.cssMoreAssignmentsbox h4{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding-right: 1.5rem;
+    color: #fff;
+}
+.cssMoreAssignmentsbox p{
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    padding-right: 1.2rem;
+    color: #fff;
+}
+.cssMoreAssignmentsbox>a>img:hover{
+    animation-name:pulse;
+    animation-delay: 3s;
+}
+.cssMoreAssignmentsbox>p>a{
+    text-decoration: none;
+    color:#fff;
+}
+.cssMoreAssignmentsbox p>a:hover{
+    cursor: pointer;
+    color: #82654b;
+}
+.footerLastPart{
+    background-color: #1a1a1a;
+    width:100%;
+    height:auto;
+}
+.footerLast p{
+    font-family: My-Caveat;
+    text-align: center;
+    padding:2rem;
+    font-size: 1.4rem;
+    color: #fff;
+}
+.goBack a{
+    color: #fff;
+    text-decoration: none;
+    font-family: My-Caveat;
+}
+.goBack a:hover{
+    color:#82654b;
+}
+.goTOTopBox {
+    width:2.6em;
+    height:2.6em;
+    border-radius: 1.3em;
+    position: relative;
+    left:2em;
+    bottom:2rem;
+    background-color: #82654b;
+}
+.goTOTopBox a{
+    text-decoration: none;
+    color: #0a0908;
+}
+.goTOTopBox i{
+    position: absolute;
+    left:0.5em;
+    top: 0.3em;
+    font-size: 1.5rem;
+    width:3rem;
+}
+@media only screen and (max-width:992px){
+    .sectionFour{
+        width:100%;
+        height:auto;
+    }
+    .cssMoreAssignments{
+        width: 100%;
+        height:auto;
+    }
+    .cssMainWebs a img{
+        height:35vh;
+        width:28rem;
+        cursor: pointer;
+    }
+    .cssMainWebContent h1{
+        font-weight: 500;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .cssMainWebContent h4{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .cssMainWebContent h4 a{
+        font-size: 0.9rem;
+    }
+    .allWebImages{
+        display:block;
+        margin: 0 auto;
+        margin-top: 3rem;
+        width: 20rem;
+        height:32vh;
+    }    
+}
+@media only screen and (max-width:820px){
+    .allWebImages{
+        height:35vh;
+    }
+}
+@media only screen and (max-width:769px){
+    .cssMainWebs a img{
+        height:28vh;
+        width:18rem;
+    }
+    .cssMainWebContent h1{
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .cssMainWebContent h4{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    .cssMainWebContent h4 a{
+        font-size: 0.8rem;
+    }
+    .allWebImages{
+        width:16rem;
+        height:30vh;
+    }   
+}
+
+@media only screen and (max-width:575px){
+    .sectionFour{
+        height:auto
+    }
+    .cssMoreAssignments{
+        height: auto;
+    }
+    .allWebImages{
+        display:block;
+        margin: 0 auto;
+        margin-top: 3rem;
+        width: 20rem;
+        height:32vh;
+    }
+
+}
+@media only screen and (max-width:500px){
+    .cssMainWebs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cssMainWebs a img{
+        height:28vh;
+        width:18rem;
+    }
+    .cssMainWebContent h1{
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .cssMainWebContent h4{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    .cssMainWebContent h4 a{
+        font-size: 0.8rem;
+    }
+    .cssMoreAssignmentsbox h4{
+        padding-right: 0rem;
+    }
+    .cssMoreAssignmentsbox p{
+        padding-right: 0rem;
+    }    
+    .footerLast p{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width:425px){
+    
+    .cssAssignment h1{
+        font-size: 2.5rem;
+        padding:auto;
+    }
+    .cssMoreAssignments h1{
+        font-size: 2.5rem;
+        
+    }
+    .cssMoreAssignmentsbox h4{
+        padding-right: 0rem;
+    }
+    .cssMoreAssignmentsbox p{
+        padding-right: 0rem;
+    }
+    .htmlAssignment h1{
+        font-size: 2.7rem;
+        margin-top: 2rem;
+    }
+    .footerLast p{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:377px){
+    .cssAssignment h1{
+        font-size: 2.3rem;
+        padding: 2rem 0;
+    }
+    .htmlAssignment h1{
+        font-size: 2.3rem;
+    }
+}
+@media only screen and (max-width:360px) {
+    .allWebImages{
+        width:18rem;
+    }
+    .footerLast{
+        height:auto
+    }    
+    
+}
+@media only screen and (max-width:338px) {
+    .cssMoreAssignmentsbox h4{
+        padding-right: 0rem;
+    }
+    .cssMoreAssignmentsbox p{
+        padding-right: 0rem;
+    }
+    .footerLast{
+        height:auto
+    }    
+    .footerLast p{
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width:280px){
+    .footerLast{
+        height:auto;
+        width:100%;
+    }
+    .footerLast p{
+        font-size: 0.7rem;
+    }
+    .cssMoreAssignmentsbox{
+        width:8.8rem;
+        display: block;
+        margin: 0px auto;
+    }
+    .goTOTopBox{
+        display: none;
+    }
+}
+

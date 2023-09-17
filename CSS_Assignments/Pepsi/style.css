@@ -1,0 +1,1017 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Sofia Pro;
+    src: url(fonts/sofiapro-light.otf);
+}
+
+.navbar {
+    background-color: #0065c3;
+    width: 100%;
+}
+
+.custom-toggler .navbar-toggler {
+    border-color: #fff;
+}
+
+.nav-item {
+    margin-right: 1-5rem;
+    font-family: Sofia Pro;
+    font-size: .875rem;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.nav-item>a {
+    color: #fff !important;
+}
+
+.navbar-brand {
+    margin-right: 50px;
+}
+
+.pepsi-btn {
+    display: inline-block;
+    font-size: 14px;
+    padding: 3px 20px;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pepsi-btn:hover {
+    background-color: white;
+    color: #0065c3;
+    animation-name: tada;
+    animation-delay: 0.4s;
+}
+
+.logo:hover {
+    animation-name: rotateIn;
+    animation-duration: 0.2s;
+}
+
+.container1 {
+    background-image: url(images/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height:650px;
+    background-size: cover;
+    position: relative;
+}
+.head-sec-one>img {
+    position: absolute;
+    width:620px;
+    top:150px;
+    left:30px;
+}
+.head-sec-two{
+    margin-top: 13%;
+    margin-left: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.unlock-free-btn {
+    font-size: 14px;
+    width: 150px;
+    padding: 5px 0px;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.unlock-free-btn:hover {
+    background-color: white;
+    color: #0065c3;
+    animation-name: tada;
+    animation-delay: 0.4s;
+}
+
+.content-paragraph {
+    font-family: Sofia Pro;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 13px;
+}
+.section-main2 {
+    background-color: black;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content:space-around;
+}
+.container3 {
+    position: relative;
+}
+.zerosugar {
+    position: absolute;
+    bottom:1px;
+    
+}
+
+.new_improve_taste {
+    position: absolute;
+    top:45px;
+    left:410px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap:10px;
+}
+
+.zeroo{
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+.zero1 {
+    width: 400px;
+    margin-left: 630px;
+}
+
+.pepsi_video {
+    margin-left: 700px;
+}
+
+.section-main3 {
+    background-image: url(images/pepsi-nitro-container.png);
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nitro-can {
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.Nitro-learnmore-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.introducing-nitro {
+    height: 300px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.learn-more-btn {
+    margin-top: 5px;
+    margin-left: 160px;
+    font-size: 14px;
+    width: 150px;
+    padding: 5px 0px;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.learn-more-btn:hover {
+    background-color: white;
+    color: #0065c3;
+    animation-name: tada;
+    animation-delay: 0.4s;
+}
+
+h2 {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 25px;
+    font-weight: bold;
+    text-align: center;
+}   
+
+.container4 {
+    background-color: #265cc5;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    object-fit: none;
+}
+
+.Thumbnail {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.thumbnail1 {
+    width: 320px;
+    height: 200px;
+    margin: 30px 20px;
+    flex: 0.2
+}
+
+.span-div {
+    background-color: #1437bf;
+    color: #ffffff;
+    width: 89%;
+    margin-left: 20px;
+    line-height: 50px;
+    margin-top: -20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.better-with-pepsi-promo {
+    width: 902px;
+    margin-right: 90px;
+    position: inherit;
+    background-repeat: no-repeat;
+}
+.container5 {
+    background-color: #004996;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.left-section {
+    width: 100%;
+    position: relative;
+}
+.img-1>img {
+    width: 400px;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+}
+.img-2>img {
+    width: 400px;
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+}
+.img-3>img {
+    width: 80%;
+    height: 400;
+    margin-top: 265px;
+}
+.img-4-right-section>img {
+    width: 910px;
+    position: absolute;
+    top:8px;
+    left:355px;
+}
+
+.container6 {
+    background-image: url(images/twil-bg.jpg);
+    width: 100%;
+    height: 590px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: center;
+    justify-content: center;
+}
+
+.blue-can>img {
+    height: 500px;
+    position: relative;
+    top: 15%;
+    animation-duration: 10s;
+}
+
+.twil-header-mb>img {
+    height: 200px;
+    position: relative;
+    top: 35%;
+    animation-duration: 10s;
+}
+
+.container7 {
+    background-color: #0065c3;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.head-para {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-top: 80px;
+}
+
+.head-para>h1 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.head-para>p {
+    font-weight: normal;
+    color: #fff;
+}
+
+.view-products-btn {
+    margin-top: 5px;
+    margin-left: 0px;
+    ;
+    font-size: 14px;
+    width: 150px;
+    padding: 5px 0px;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.view-products-btn:hover {
+    background-color: white;
+    color: #0065c3;
+    animation-name: tada;
+    animation-delay: 0.4s;
+}
+
+.pepsi-three-cans>img {
+    padding-top: 140px;
+    width: 500px;
+}
+
+.heading-secnd-last>h1 {
+    color: #004996;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container8 {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.animated-images>a>img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.animated-images :hover {
+    animation-name: tada;
+    animation-delay: 0.3s;
+}
+
+.last-section {
+    background-color: #0065c3;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-brand2>img {
+    width: 150px;
+}
+
+.last-sub-section {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.subscribe-btn {
+    margin-top: 5px;
+    font-size: 14px;
+    width: 250px;
+    padding: 5px 0px;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro;
+    cursor: pointer;
+    font-weight: bold;
+}
+.subscribe-btn:hover {
+    background-color: white;
+    color: #0065c3;
+    animation-name: tada;
+    animation-delay: 0.4s;
+}
+
+.fa-brands {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width:992px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .logo:hover {
+        animation-name: rotateIn;
+        animation-duration: 0.2s;
+    }
+    .container1{
+        height:720px;
+        width:100%;
+        background-size: cover;
+        position: relative;
+        background-position: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .head-sec-two{
+        position: relative;
+    }
+    .head-sec-two img{
+        width:70%;
+        position: absolute;  
+        bottom: -40px;
+        left:25px;
+    }
+    .unlock-free-btn {
+        align-self: center;
+        width:120px;
+        position: absolute;
+        top:50px;
+        left:120px;
+    }
+    .content-paragraph {
+        font-family: Sofia Pro;
+        color: #fff;
+        font-size: 11px;
+        text-align:center;
+        line-height: 11px;
+        position: absolute;
+        top:100px;
+        right:70px;
+    }
+    .head-sec-one>img {
+        width:350px;
+        margin-top: 287px;
+        margin-right: 60px;
+    }
+    .section-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-main2 {
+        background-color: black;
+        width: 100%;
+        height: 950px;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap:10px;
+    }
+    .zeroo{
+        width: 400px;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-left: -90px;
+    }
+    .zero1 {
+        width: 300px;
+        margin-left: -40px;
+    }
+    
+    .pepsi_video {
+        margin-left: -30px;
+    }
+    .new_improve_taste img{
+        width:170px;
+        position: absolute;
+        top:420px;
+        left:-170px;
+    }
+    .zerosugar img {
+        position: absolute;
+        width:700px;
+        left:-150px;
+        bottom:1px;
+    }
+    .section-main3 {
+        background-image: url(images/pepsi-nitro-container.png);
+        width: 100%;
+        height: 750px;
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-3{
+        position: relative;
+    }
+    .nitro-can {
+        height: 350px;
+        top: 360px;
+        left: -180px;
+        position: absolute;
+    }
+    .introducing-nitro {
+        height: 200px;
+        width: 300px;
+        top: 5px;
+        left: 50px;
+        position: absolute;
+    }
+    h2 {
+        color: #fff;
+        font-size: 22px;
+        left: 50px;
+        top:320px;
+        font-weight: bold;
+        position: absolute;
+    }
+    .learn-more-btn {
+        position: absolute;
+        top: 355px;
+        left: 10px;
+        font-size: 14px;
+        width: 150px;
+        padding: 5px 0px;
+        border: 2px solid #fff;
+        border-radius: 1.8em;
+        background: transparent;
+        color: #fff;
+        font-family: Sofia Pro;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .container4 {
+        background-color: #265cc5;
+        width: 100%;
+        height: 700px;
+        display: flex;
+    }
+    
+    .Thumbnail {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .thumbnail1 {
+        width: 520px;
+        height: 250px;
+    }   
+    .span-div {
+        width: 93%;
+    }
+    .better-with-pepsi-promo {
+        display: none;
+    }
+    .container5 {
+        background-color: #004996;
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .img-1>img {
+        width: 200px;
+        top: 50px;
+        left: 50px;
+        position: absolute;
+    }
+    .img-2>img {
+        width: 200px;
+        bottom: 20px;
+        left: 20px;
+        position: absolute;
+    }
+    .img-3>img {
+        width: 100%;
+        height: 400;
+        margin-top: 260px;
+    }
+    .img-4-right-section>img {
+        width: 310px;
+        height:500px;
+        position: absolute;
+        top:0px;
+        left:255px;
+    }   
+    main6 > iframe{
+        width:100%;
+        height:300px;
+    }
+    .container6 {
+        width: 100%;
+        height: 350px;
+    }
+    .blue-can>img {
+        height: 300px;
+    }
+    
+    .twil-header-mb>img {
+        height: 80px;
+    }
+    .container7 {
+        margin: 0px 0px;
+        background-color: #0065c3;
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .head-para {
+        display: flex;
+        flex-direction: column;   
+    }
+    .head-para>h1 {
+        margin-right: 90px;
+        font-size: 35px;
+        text-align: center;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+    .head-para>p {
+        font-size: 15px;
+        margin-right: 90px;
+        text-align: center;
+        line-height: 18px;
+        padding-bottom: 20px;
+    }
+    .view-products-btn {
+        margin-bottom: 100px;
+        margin-left: 95px;
+        font-size: 14px;
+        width: 150px;
+        padding: 5px 0px;
+        font-weight: bold;
+    }
+    .pepsi-three-cans>img {
+        padding-top: 110px;
+        width: 350px;
+    }
+    .heading-secnd-last>h1 {
+        font-size: 40px;
+        font-weight: bolder;
+  }  
+    .container8 {
+        width: 100%;
+        margin-left: 30px;
+    }
+    .last-img{
+        margin-left:100px;
+    }    
+    .animated-images>a>img {
+        align-self: center;
+        width: 250px;
+        border-radius: 5px;
+    }    
+    .navbar-brand2>img {
+        width: 40px;
+    }
+    
+    .last-sub-section {
+        
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 9px;
+        line-height: 10px;
+    }
+    
+    .subscribe-btn {
+        margin-left: 25px;
+        font-size: 12px;
+        width: 200px
+    }
+    .fa-brands {
+        font-size: 20px;
+        margin-left: 22px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .unlock-free-btn {
+        align-self: center;
+        width:120px;
+        position: absolute;
+        top:50px;
+        left:85px;
+    }
+    .container8 {
+        width: 100%;
+        margin-left: 30px;
+    }
+    .last-img{
+        margin-left:100px;
+    }    
+    .animated-images>a>img {
+        align-self: center;
+        width: 200px;
+        border-radius: 5px;
+    }
+    .navbar-brand2>img {
+        width: 40px;
+    }
+    
+    .last-sub-section {
+        
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 9px;
+        line-height: 10px;
+    }
+    
+    .subscribe-btn {
+        margin-left: 25px;
+        font-size: 12px;
+        width: 200px
+    }
+    .fa-brands {
+        font-size: 20px;
+        margin-left: 22px;
+    }  
+}
+@media only screen and (max-width:360px){
+    *{  
+        padding: 0px;
+        margin: 0px;
+    }
+    .unlock-free-btn {
+        align-self: center;
+        width:120px;
+        position: absolute;
+        top:50px;
+        left:60px;
+    }
+    .section-main2{
+        height:800px;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap:10px;
+    }
+    .zeroo{
+        width: 250px;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-left: -100px;
+    }
+    .zero1 {
+        width: 200px;
+        margin-left: -70px;
+    }
+    
+    .pepsi_video {
+        margin-left: -70px;
+        width:200px
+    }
+    .new_improve_taste img{
+        width:140px;
+        position: absolute;
+        top:350px;
+        left:-325px;
+    }
+    .zerosugar img {
+        position: absolute;
+        width:500px;
+        height:450px;
+        left:-155px;
+        bottom:1px;
+    }
+    .section-main3 {
+        background-image: url(images/pepsi-nitro-container.png);
+        width: 100%;
+        height: 750px;
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-3{
+        position: relative;
+    }
+    .nitro-can {
+        height: 300px;
+        top: 390px;
+        left: -220px;
+        position: absolute;
+    }
+    .introducing-nitro {
+        height: 200px;
+        width: 250px;
+        top: 5px;
+        left: 20px;
+        position: absolute;
+    }
+    h2 {
+        color: #fff;
+        font-size: 18px;
+        left: 30px;
+        top:320px;
+        font-weight: bold;
+        position: absolute;
+    }
+    .learn-more-btn {
+        position: absolute;
+        top: 355px;
+        left: -50px;
+        font-size: 14px;
+        width: 150px;
+        padding: 5px 0px;
+        border: 2px solid #fff;
+        border-radius: 1.8em;
+        background: transparent;
+        color: #fff;
+        font-family: Sofia Pro;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .container4 {
+        background-color: #265cc5;
+        width: 100%;
+        height: 700px;
+        display: flex;
+    }
+    .Thumbnail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .thumbnail1 {
+        width: 320px;
+        height: 250px;
+    }
+    
+    .span-div {
+        width: 89%;
+        
+    }
+    .better-with-pepsi-promo {
+        display: none;
+    }
+    .container5 {
+        background-color: #004996;
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .img-1>img {
+        width: 150px;
+        top: 50px;
+        left: 10px;
+        position: absolute;
+    }
+    
+    .img-2>img {
+        width: 150px;
+        bottom: 20px;
+        left: 5px;
+        position: absolute;
+    }
+    .img-3>img {
+        width: 100%;
+        height: 200px;
+        margin-top: 300px;
+    }
+    .img-4-right-section>img {
+        width: 200px;
+        height:501px;
+        position: absolute;
+        top:0px;
+        left:160px;
+    }
+    main6 > iframe{
+        width:100%;
+        height:200px;
+    }
+    .container6 {
+        width: 100%;
+        height: 178px;
+    }
+    .blue-can>img {
+        height: 150px;
+    }
+    
+    .twil-header-mb>img {
+        height: 50px;
+    }
+    .container7 {
+        margin: 0px 0px;
+        background-color: #0065c3;
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .head-para {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .head-para>h1 {
+        margin-right: 90px;
+        font-size: 35px;
+        text-align: center;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .head-para>p {
+        font-size: 14px;
+        margin-right: 90px;
+        text-align: center;
+        line-height: 18px;
+        padding-bottom: 20px;
+    }
+    
+    .view-products-btn {
+        margin-bottom: 120px;
+        margin-left: 55px;
+        font-size: 10px;
+        width: 100px;
+        padding: 5px 0px;
+        font-weight: bold;
+    }
+    
+    .pepsi-three-cans>img {
+        padding-top: 110px;
+        width: 300px;
+    }  
+    .heading-secnd-last>h1 {
+          font-size: 30px;
+          font-weight: bolder;
+    }  
+    .container8 {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .last-img{
+        margin-left:70px;
+    }    
+    .animated-images>a>img {
+        align-self: center;
+        width: 150px;
+        border-radius: 5px;
+    }
+    .navbar-brand2>img {
+        width: 30px;
+    }
+    
+    .last-sub-section {
+        font-weight: normal;
+        font-size: 5px;
+        line-height: 1px;
+    }
+    
+    .subscribe-btn {
+        margin-left: 25px;
+        font-size: 9px;
+        width: 140px
+    }
+    .fa-brands {
+        font-size: 10px;
+        margin-left: 19px;
+    }    
+}

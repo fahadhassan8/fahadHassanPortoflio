@@ -1,0 +1,554 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* .container{
+    background-color: #edecec;
+} */
+.navbar{
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.o-tere>img{
+    margin-left: 30px;
+}
+.nav-item>a{
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.custom-btn {
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin-right: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+      7px 7px 20px 0px rgba(0,0,0,.1),
+      4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+   }
+   
+   .btn-1 {
+    background: #75BF7A;
+    background: linear-gradient(0deg, #75BF7A 0%, #75BF7A 100%);
+    border: none;
+   }
+   
+   .btn-1:before {
+    height: 0%;
+    width: 2px;
+   }
+   
+   .btn-1:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+                 -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+       inset -4px -4px 6px 0 rgba(255,255,255,.2),
+       inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+   }
+.main{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F9F9F9
+}
+
+.main1{
+    display: flex;
+    flex-direction: column;
+}
+.sub-main1>img{
+    margin-top: 70px;
+    width: 450px;
+}
+.sub-main2 > img {
+    margin-top: 30px;
+    width:400px;
+}
+.sub-main3 > img{
+    margin-top: 40px;
+    width:200px;
+}
+.main2{
+    background-color: #F9F9F9;
+}
+.background-color{
+    background-color: #F9F9F9;
+}
+.main2 > img{
+    width:400px;
+    margin-left: 350px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #75BF7A; 
+    margin-top: 50px;
+    border-radius: 10px;
+    height:100px;
+}
+.paragraph{
+    font-weight: bold;
+    margin-top: 18px;
+    font-size: 15px;
+    color:#fff;
+    line-height: 20px;
+}
+.input>input{
+    width:300px;
+    padding: 10px 15px;
+    border: 1px solid #75BF7A;
+    border-radius: 3px;
+}
+.input>button{
+    background-color: #000;
+    color:#fff;
+    border: 1px solid black;
+    border-radius: 3px;
+    width:200px;
+    padding:10px 0px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.para2 > img{
+    padding-top: 20px;
+}
+.big-boss{
+    display: flex;
+    margin-top: 100px;
+    background-color: #F9F9F9;
+}
+.circle-left{
+    background-image: url(images/circle.png);
+    background-repeat: no-repeat;
+    height:70px;
+    width:100px;
+    margin-top: 75px;
+    float:right;
+    margin-left: 50px;
+    position: relative;
+}
+.circle-left>img{
+    position: absolute;
+    top:20px;
+    left:25px
+}
+.work1 p img{
+    float: right;
+    padding-top: 15px;
+}
+.circle-left2{
+    background-image: url(images/circle.png);
+    background-repeat: no-repeat;
+    height:70px;
+    width:100px;
+    margin-top: 365px;
+    margin-left: 170px;
+    position: relative;
+}
+.circle-left2>img{
+    position: absolute;
+    top:20px;
+    left:22px
+}
+.work2 p img{
+    float: right;
+    padding-top: 15px;
+}
+.center{
+    display: flex;
+    position: relative;
+}
+.sub-center{
+    background-color: #75BF7A;
+    margin-top: 60px;
+    margin-left: 150px;
+    height:450px;
+    width:450px;
+    border:2px solid  #75BF7A;
+    border-radius: 450px;
+}
+.sub-center2 > img{
+    position: absolute;
+    right: 90px;
+}
+.circle-right{
+    background-image: url(images/circle.png);
+    background-repeat: no-repeat;
+    height:70px;
+    width:100px;
+    margin-top: 75px;
+    margin-left: 120px;
+    position: relative;
+}
+.circle-right>img{
+    position: absolute;
+    top:20px;
+    left:22px
+}
+.work3 p img{
+    margin-left: 100px;
+    padding-top: 5px;
+}
+.circle-right2{
+    background-image: url(images/circle.png);
+    background-repeat: no-repeat;
+    height:70px;
+    width:100px;
+    margin-top: 35px;
+    margin-left: 125px;
+    position: relative;
+}
+.circle-right2>img{
+    position: absolute;
+    top:20px;
+    left:22px
+}
+.work4 p img{
+    margin-left: 100px;
+    padding-top: 5px;
+}
+.dots{
+    margin-top: 60px;
+    text-align: center;
+}
+.tere-benefits{
+    margin-top: 80px;
+    text-align: center;
+}
+.big-box-one{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin:0px auto;
+    margin-top: 50px;
+    width:80%;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.big-one{
+    width:80px;
+}
+.flexible-working{
+    width:180px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+.para7{
+    margin-top: 20px;
+}
+.boy-run>img{
+    height:200px
+}
+.big-box-three{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin:0px auto;
+    margin-top: 50px;
+    width:80%;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.big-two{
+    width:80px;
+}
+.Earning{
+    width:180px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+.para9{
+    margin-top: 20px;
+}
+.dollar-bag>img{
+    height:200px
+}
+.big-box-two{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin-top: 50px;
+    margin-left: 180px;
+    width:80%;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.big-three{
+    width:80px;
+}
+.customer-support{
+    width:180px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+.para8{
+    margin-top: 20px;
+}
+.boy-run>img{
+    height:200px
+}
+.blank{
+    background-color: #F9F9F9;
+    height:180px;
+    width:90%;
+}
+.last-section{
+    background:#fff url(images/footer.png) no-repeat;
+    height:350px;
+    position: relative;
+}
+.last-section > img{
+    position: absolute;
+    top:130px;
+    left:150px;
+}
+.last-section .last-image1{
+    width:150px;
+    position: absolute;
+    top: 130px;
+    left:920px;
+}
+.last-section .last-image2{
+    width:150px;
+    position: absolute;
+    top: 130px;
+    left:1090px;
+}
+@media only screen and (max-width:375px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .nav-item>a{
+        text-align: center;
+    }
+    .custom-btn{
+        margin-left: 90px;
+    }
+    .o-tere>img{
+        margin-left: 20px;
+        width:50%;
+        height:30%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+     }
+    .main1{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-main1{
+        text-align: center;
+    }
+    .sub-main1>img{
+        width: 80%;
+    }
+    .sub-main2{
+        text-align: center;
+    }
+    .sub-main2 > img {
+        width:90%;
+    }
+    .sub-main3{
+        text-align: center;
+    }
+    .sub-main3 > img{
+        margin-top: 40px;
+        width:40%;
+    }
+    .main2>img{
+       width:90%;
+       margin-right:0px;
+       margin-top: 20px;
+       float: right;
+    }
+    .box{
+        text-align: center;
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        border-radius:5px;
+        height: 200%;
+        width: 100%;
+    }
+    .paragraph{
+        font-size: 1.7rem;
+        line-height: 30px;
+    }
+    .input>input{
+        font-size: 1rem;
+        width:80%; 
+        margin-bottom: 15px;
+        padding: 15px;;
+    }
+    .input>button{
+        font-size: 1rem;
+        padding: 15px;
+        margin-bottom: 40px;
+        width:80%;
+    }
+    .box2{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .tere-works>img{
+        width:70%;
+    }
+    .para2 > img{
+        padding-top: 20px;
+        width: 90%;
+    }
+    .big-boss{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        background-color: #F9F9F9;
+    }
+    .center{
+        order:2;
+    }
+    .sub-center{
+        margin: 0px auto;
+        height:250px;
+        width:250px;
+        border:2px solid  #75BF7A;
+        border-radius: 350px;
+    }
+    .sub-center2 > img{
+        width:45%;
+        position: absolute;
+        margin: 0px auto;
+        bottom: -32px;
+    }
+    .dots{
+        display: none;
+    }
+    .left-sec{
+        order: 1;
+        align-self: center;
+        margin-right:20%;
+    }
+    .right-sec{
+    
+    }
+    .circle-left{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .work2 p img{
+        margin-left: 0px;
+        padding-top: 15px;
+    }
+    .big-boss{
+        display: flex;
+        justify-content: center;;
+        margin-top: 80px;
+        background-color: #F9F9F9;
+    }
+    .work3 p img{
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+    .work4 p img{
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+    .circle-left{
+        margin-top: 60px;
+    }
+    .circle-right{
+        margin-top: 45px;
+        margin-left: 30px;
+    }
+    .circle-right2{
+        margin-top: 45px;
+        margin-left: 30px;
+    }
+    .tere-benefits img{
+        margin-top: 30px;
+        width:70%;
+    }
+    .big-box-one{
+        margin-top: 50px;
+        width:100%;
+        height:60vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .para7{
+        width:90%;
+    }
+    .big-box-two{
+        margin-top: 50px;
+        width:100%;
+        height:60vh;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .para8{
+        width:90%;
+    }
+    .big-box-three{
+        margin-top: 50px;
+        width:100%;
+        height:60vh;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .para9{
+        width:90%;
+    }
+    .last-section{
+        height:70%;
+        width:100%;
+    }
+    .last-section > img{
+        top:20px;
+        left:90px;
+    }
+    .last-section .last-image1{
+        width:30%;
+        top: 90px;
+        left:50px;
+    }
+    .last-section .last-image2{
+        width:30%;
+        top: 90px;
+        left:170px;
+    }
+}

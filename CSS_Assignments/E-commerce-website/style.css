@@ -1,0 +1,128 @@
+.my-nav{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.theme-menu > li{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.theme-menu a{
+    color: rgb(155 92 143);
+}
+.theme-search>input{
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid rgb(155 92 143);
+    text-transform: uppercase;
+}
+.theme-search>button{
+    border-radius: 20px;
+    border: 2px solid rgb(155, 92, 143);
+    background-color: rgb(155, 92, 143);
+    color: #fff;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.theme-search>button:hover{
+    background-color: #9b5c8f;
+    color: #fff;
+}
+.main-box{
+    padding: 20px;
+}
+.theme-card{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.theme-card > i{
+    font-size: 50px;
+}
+.theme-card:hover{
+    background-color:#9b5c8f;
+    color: #fff;
+}
+.images {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.company-inc{
+    padding: 10px;
+    color: #000;
+    font-weight: bold;
+}
+.icon i{
+    font-size: 30px;
+    color: #9b5c8f;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .theme-menu{
+        text-align: center;
+    }
+    .theme-menu>li{
+        margin-left: 0px;
+    }
+    .theme-search{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .theme-search>button{
+        margin-top: 15px;
+        padding: 6px 0px;
+        /* align-self: center; */
+        width: 150px;
+    }
+    .card{
+        padding-bottom: 20px;
+        margin-left: 15px;
+    }
+    .icon i{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .images {
+        width:100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width:600px){
+    .images{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-thumbnail{
+        width: 100%;
+    }
+} 
+@media only screen and (max-width: 332px){
+    .theme-search>input{
+        width: 100%;
+    }
+    .theme-search>button{
+        width: 100%;
+    }
+    .images{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-thumbnail{
+        width: 80%;
+    }
+}
