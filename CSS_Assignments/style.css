@@ -144,6 +144,10 @@ title{
 .goBack a:hover{
     color:#82654b;
 }
+.pakolaImg img{
+    border-radius: 3em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 .goTOTopBox {
     width:2.6em;
     height:2.6em;

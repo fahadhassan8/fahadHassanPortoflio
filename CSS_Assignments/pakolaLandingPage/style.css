@@ -1,0 +1,698 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+*{
+    background-color: #ffffff;
+    padding: 0em;
+    margin: 0em;
+    overflow-x: hidden;
+    font-family: Poppins, sans-serif ;
+}
+
+.top-box{
+    background-color: #ffffff;
+    width:100%;
+    height:auto;
+}
+.top-box p{
+    text-align: center;
+    margin: 1em auto;
+    color:#494949;
+}
+.navbar {
+    background-color:#1cc95d;
+    width: 100%;
+}
+.logo img{
+    background-color: #1cc95d;
+    border: none;
+    padding-right: 1em;
+}
+.navbar-expand-lg .navbar-collapse {
+    background: #1cc95d;
+    border: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    background-color:#1cc95d;
+    border: none;
+}
+.custom-toggler .navbar-toggler {
+    border-color: #1cc95d;
+}
+.nav-item {
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+  
+.nav-item>a {
+    color: #fff !important;
+}
+  
+.navbar-brand {
+    background-color: #1cc95d;
+}
+.pakola-btn {
+    display: inline-block;
+    font-size: 14px;
+    padding: 3px 20px;
+    margin-right: 1em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+.pakola-btn:hover {
+    background-color: white;
+    color: #1cc95d;
+    animation-name: tada;
+    animation-delay: 0.4s;
+}
+.logo:hover {
+    animation-name: rotateIn;
+    animation-duration: 0.8s;
+}
+.sellerRamadanCordialHeadings h2{
+    text-align: center;
+    font-weight: 600;
+    color: #484848;
+    margin: 4rem auto;
+    overflow-y: hidden;
+}
+.flexCards{
+    position: relative;
+    border: none;
+}
+.flexCards img{
+    cursor: pointer;
+}
+.cardButtons{
+    background-color: #f13e3e;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border: none;
+    margin-right: 0.1em;
+    padding: 0.5rem 0rem;
+    width:75%;
+}
+.cardButtons:hover{
+    background-color: #f13e3e;
+}
+.cardViewButtons{
+    background-color: #f13e3e;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border: none;
+    padding: 0.25rem 0rem;
+    margin-left: 0.11em;
+    width: 18%;
+}
+.cardViewButtons:hover{
+    background-color: #f13e3e;
+}
+.cardViewButtons i{
+    background-color: #f13e3e;
+    margin-top: 0.4em;
+    font-size: 1.1rem;
+}
+.cardParagraphs{
+    text-align: center;
+    padding-top: 1em;
+    font-weight: 600;
+    color: #484848;
+}
+.cardParagraphs:hover{
+    color: #1cc95d;
+    cursor: pointer;
+}
+.cardParagraphsRate{
+    text-align: center;
+    font-weight: 600;
+    color: #484848;
+}
+.cardParagraphsRate span{
+    font-weight: 500;
+    padding-left: 0.2em;
+    font-size: 0.9em;
+    color: #9b9b9b;
+}
+.product-card_label{
+    background-color: #1cc95d;
+    color: #fff;
+    font-size: 0.85rem;
+    width: 3.2rem;
+    height: auto;
+    border-radius: 0.1rem;
+    position: absolute;
+    text-align: center;
+    top:1rem;
+    right: 1rem;
+}
+.viewAll h6{
+    text-align: center;
+    color: #1cc95d;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: 600;
+}
+/* Initially hide the hover image */
+.image-container .hover-image {
+    display: none;
+}
+
+/* Show hover image when hovering over the container */
+.image-container:hover .normal-image {
+    display: none;
+}
+
+.image-container:hover .hover-image {
+    display: block;
+}
+.lychee-syrup-btn{
+    display: none;
+}
+.lychee-product-label{
+    background-color: #ffc107;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem;
+    width: auto;
+    height: auto;
+    right: 2rem;
+    text-transform: uppercase;
+}   
+/* imagesSectionOneStart */
+.imagesSectionOne{
+    height: auto;
+    margin-top: 3rem;
+    display:grid;
+    grid-template-columns:2fr repeat(2, 1fr);
+    grid-template-rows: 2fr 2fr 1fr;
+
+}
+.pakolaCanImage{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.pakolaCanImage img{
+    width:100%;
+}
+.badamZafranImage img{
+    width:100%;
+}
+.appleSidraImage img{
+    width:100%;
+}
+.lycheeCanImage img{
+    width:100%;
+}
+.customizeBundleImage img{
+    width: 100%;;
+}
+/* imagesSectionOneENd */
+/* waterImagesSectionTwoStart */
+.imagesSectionTwo{
+    display: flex;
+}
+.waterImagesOne{
+    position: relative;
+}
+.waterImagesOne img{
+    width:95%
+}
+.shopButton{
+    position: absolute;
+    right:3rem;
+    bottom:6.5rem;
+}
+.shopNowButtonWater{
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background:#174b9f;
+    color: white;
+    border-radius: 4px;    
+}
+.shopNowButtonWater:hover {
+    background: #052559;
+}
+.shopNowButtonWater:active {
+    transform: translate(0em, 0.2em);
+}
+.waterImagesTwo{
+    position: relative;
+}
+.waterImagesTwo img{
+    width:95%;
+}
+.subscribeButton{
+    position: absolute;
+    right:3rem;
+    bottom:7rem;
+}
+.subscribeButtonWater {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+    color: white;
+    border-radius: 4px;
+   }
+   .subscribeButtonWater:hover {
+    background: #19455e;
+   }
+   .subscribeButtonWater:active {
+    transform: translate(0em, 0.2em);
+   }
+/* waterImagesSectionTwoEnd */
+/* imagesSectionThreeStart */
+   .imagesSectionThree{
+    margin-top: 9rem;
+    height: auto;
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 2fr; */
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.lycheeGrid{
+    grid-row: 1/1;
+    grid-column: 1/2;
+}
+.lycheeGrid img{
+    width: 100%; 
+}
+.vimtoGrid{
+    grid-row: 1/2;
+    grid-column: 2/3;    
+}
+.vimtoGrid img{
+    width:100%;
+}
+.appleBottle{
+    grid-row: 2/3;
+    grid-column: 1/2;    
+    
+}
+.appleBottle img{
+    width: 100%;
+}
+.limeGrid{
+    grid-row: 2/2;
+    grid-column: 2/3;
+}
+.limeGrid img{
+    width: 100%;
+}
+.amstelGrid{
+    grid-column: 3/-1;
+    grid-row: 1/3;
+}
+   .amstelGrid img{
+    width:100%;
+}
+/* imagesSectionThreeENd */
+
+/* lastImageSectionStart */
+.lastImageSection{
+    background: #3a8103;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9rem;
+    padding: 2rem;
+}
+.followOnInsta h2{
+    background: #3a8103;
+    text-align: center;
+    color: #ffffff;
+    overflow:hidden;
+    padding: 2rem;
+    border:none;
+    margin: 0px;
+}
+.images{
+    background: #3a8103;
+    display: flex;
+    width:100%;
+}
+.images img{
+    overflow: hidden;
+    cursor: pointer;
+}
+.imgLast:hover{
+    animation-name: heartBeat;
+    animation-delay: 0.4s;
+    animation-duration:0.8s;
+}
+/* lastImageSectionENd */
+/* footerStart */
+footer{
+    background-color: #f8f8f8;
+    height: auto;
+}
+.footerArea{
+    background-color:#f8f8f8;    
+}
+.footerMian{
+    background-color:#f8f8f8;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    padding: 4rem 0px;
+}
+.footerPartOne{
+    width:35%;
+    background-color:#f8f8f8;
+}
+.footerPartOne img{
+    background-color:#f8f8f8;
+    width:40%;
+}
+.footerPartOne p{
+    background-color:#f8f8f8;
+    color:#494949;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+}
+.connectUs{
+    background-color:#f8f8f8;
+    color:#494949;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.footerContactImage{
+    background-color:#f8f8f8;
+}
+.footerContactImage i{
+    background-color:#f8f8f8;
+    color:#494949;
+    font-size: 1.5rem;
+    padding: 0px 0.3rem;
+}
+.footerContactImage i:hover{
+    cursor: pointer;
+    color: #3a8103;
+}
+.footerPartTwo{
+    width:20%;
+    background-color:#f8f8f8;
+}
+.footerUnorderListOne{
+    background-color: #f8f8f8;
+}
+.footerUnorderListOne li{
+    background-color: #f8f8f8;
+    padding: 0.5em 2.5em;
+    color: #494949;
+    text-align: left;
+    font-size: 0.9em;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.footerUnorderListOne li:hover{
+    color: #1cc95d;
+    cursor: pointer;
+}
+.footerPartThree{
+    width:35%;
+    background-color: #f8f8f8;
+}
+.footerUnorderListTwo{
+    background-color: #f8f8f8;
+}
+.footerUnorderListTwo li{
+    background-color: #f8f8f8;
+    padding: 0.7em 0.1em;
+    color: #494949;
+    text-align: left;
+    font-size: 0.9em;
+}
+.liListOne{
+    font-weight: 600;
+    cursor: pointer;
+}
+.liListOne i{
+    background-color: #f8f8f8;
+    padding-top: 0.3em;
+    padding-right: 0.3em;
+}
+.liListTwo{
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+.liListTwo i{
+    background-color: #f8f8f8;
+    padding-top: 0.6em;
+    padding-right: 0.3em;    
+}
+.lastFooterPara{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    bottom:0;
+    z-index: 1;
+    width:100%;
+    color:#fff;
+    padding: 2em ;
+    margin:0;
+    text-align: center;
+}
+/* footerEnd */
+
+@media only screen and (max-width:992px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+    .shopButton{
+        right:1.5rem;
+        bottom:4rem;
+    }
+    .shopNowButtonWater{
+        font-size: 0.7rem;
+    }
+    .subscribeButton{
+        right:1.5rem;
+        bottom:4.5rem;
+    }
+    .subscribeButtonWater{
+        font-size: 0.7rem;
+    }
+    .footerPartOne p{
+        font-size: 0.8rem;
+    }
+    .footerContactImage i{
+        font-size: 1.2rem;
+        padding: 0px 0.2rem;
+    }
+    .footerUnorderListOne li{
+        font-size: 0.7em;
+        padding: 0.5em 0.1em;
+    }
+    .footerUnorderListTwo li{
+        font-size: 0.6em;
+        padding: 0.5em 0.1em;
+    }
+}
+@media only screen and (max-width:903px) {
+    
+}
+@media only screen and (max-width:872px){
+    .shopButton{
+        right:1.5rem;
+        bottom:3rem;
+    }
+    .shopNowButtonWater{
+        font-size: 0.7rem;
+    }
+    .subscribeButton{
+        right:1.5rem;
+        bottom:4.5rem;
+    }
+    .subscribeButtonWater{
+        font-size: 0.7rem;
+    }
+}
+@media only screen and (max-width:780px) {
+    
+}
+@media only screen and (max-width:769px){
+    .flexCards{
+        width:15rem;
+    }
+    .imagesSectionTwo{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .shopButton{
+        position: absolute;
+        right:2.5rem;
+        bottom:6.5rem;
+    }
+    .shopNowButtonWater{
+        font-size: 1rem;
+    }
+    .subscribeButton{
+        position: absolute;
+        right:2.3rem;
+        bottom:7rem;
+    }
+    .subscribeButtonWater {
+        font-size: 1rem;
+    }
+    .lastImageSection{
+        width:100%;
+        height:auto
+    }
+    .followOnInsta h2{
+        background: #3a8103;
+        text-align: center;
+        color: #ffffff;
+        overflow:hidden;
+        padding: 2rem;
+        border:none;
+        margin: 0px;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+}
+@media only screen and (max-width:680px) {
+    
+}
+@media only screen and (max-width:576px) {
+    .top-box{
+        height: auto;
+    }
+    .top-box p{
+        font-size: 0.8rem;
+    }
+    .flexCards{
+        display: block;
+        margin: 0px auto;
+        width:20rem;
+    }
+}
+@media only screen and (max-width:530px) {
+    .shopButton{
+        position: absolute;
+        right:2rem;
+        bottom:4rem;
+    }
+    .shopNowButtonWater{
+        font-size: 0.8rem;
+    }
+    .subscribeButton{
+        position: absolute;
+        right:1.8rem;
+        bottom:5rem;
+    }
+    .subscribeButtonWater {
+        font-size: 0.8rem;
+    }
+    .followOnInsta h2{
+        font-size: 1.3rem;
+    }
+    .footerMian{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerPartOne{
+        width:100%;
+    }
+    .footerPartOne p{
+        padding-top: 1.5rem;
+    }
+    .footerPartTwo{
+        width:50%;
+        background-color: #f8f8f8;
+        padding: 1em 0em;
+    }
+    .footerUnorderListOne{
+        background-color: #f8f8f8;
+        padding: 0em;
+    }
+    .footerUnorderListOne li{
+        padding: 0.4em 0em;
+        font-size: 0.9em;
+    }
+    .footerPartThree{
+        width:100%;
+        padding: 0em;
+    }
+    .footerUnorderListTwo{
+        padding: 0;
+    }
+    .footerUnorderListTwo li{
+        padding: 0.4em;
+        font-size: 0.9em;
+    }
+}
+@media only screen and (max-width:430px){
+    .flexCards{
+        width:18rem;
+    }
+    .normal-image,.hover-image{
+        width: 18rem;
+    }
+      .shopButton{
+        position: absolute;
+        right:1.8rem;
+        bottom:3.5rem;
+    }
+    .shopNowButtonWater{
+        font-size: 0.7rem;
+    }
+    .subscribeButton{
+        right:1.6rem;
+        bottom:4rem;
+    }
+    .subscribeButtonWater {
+        font-size: 0.7rem;
+    }
+    .followOnInsta h2{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:360px){
+    .imagesSectionTwo{
+        width:100%
+    }
+    .shopButton{
+        position: absolute;
+        right:1rem;
+        bottom:3rem;
+    }
+    .shopNowButtonWater{
+        font-size: 0.7rem;
+    }
+    .subscribeButton{
+        right:1.4rem;
+        bottom:4rem;
+    }
+    .subscribeButtonWater {
+        font-size: 0.6rem;
+    }   
+}
+@media only screen and (max-width:338px){
+    .flexCards{
+        width:15rem;
+    }
+    .normal-image,.hover-image{
+        width: 15rem;
+    }
+    .shopButton{
+        bottom:6rem;
+    }
+    .subscribeButton{
+        right:1rem;
+        bottom:3rem;
+    }
+}
