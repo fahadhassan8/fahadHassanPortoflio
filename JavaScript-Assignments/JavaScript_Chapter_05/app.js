@@ -113,7 +113,7 @@ alert(fourTen);
 var c = 25;
 var f = 70;
 
-// For Fahrenhite Conversion using Celclius temp value
+// For Fahrenhite Conversion using Celcius temp value
 
 // var cValue = (c * 9) / 5 + 32;
 

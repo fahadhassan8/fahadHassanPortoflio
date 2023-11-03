@@ -106,9 +106,9 @@
 //     document.write("</br> Remarks: Excellent");
 // }else if(percentage >= 70){
 //     document.write("</br> Grade: A");
-//     document.write("</br> Remarks: Goog");
+//     document.write("</br> Remarks: Good");
 // }else if(percentage >= 60){
-    // doocument.write("</br> Grade: A");
+    // doocument.write("</br> Grade: B");
     // document.write("</br> Remarks: You need to improve");
 // }else if(percentage < 60){
     // document.write("</br> Grade: Fail");

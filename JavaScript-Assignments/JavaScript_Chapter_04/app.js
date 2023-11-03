@@ -15,7 +15,7 @@
 // age_2023
 // message .
 
-// Five legal Variable Names.
+// Five illegal Variable Names.
 
  // 123user .
  // total-amout .

@@ -24,8 +24,8 @@
 
 // document.write("</br> --a pre decrement");
 // document.write("</br> --a - --b pre decrement");
-// document.write("</br> --a - --b pre decrement concrenate with ++b pre decrement");
-// document.write("</br> --a - --b pre decrement concrenate with ++b pre decrement and b-- post decrement");
+// document.write("</br> --a - --b pre decrement concrenate with ++b pre increment");
+// document.write("</br> --a - --b pre decrement concrenate with ++b pre increment and b-- post decrement");
 
 // var c = --a - --b + ++b + b--;
         //   1 -   0 +   1 + 1;
