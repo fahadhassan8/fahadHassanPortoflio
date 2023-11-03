@@ -693,9 +693,11 @@ li img{
     }
     .firstLeftSec{
         margin-top: 2em;
+        width:100%
     }
     .firstLeftButtons{
         margin-top: 0.8em;
+        margin-left: 6em;
     }   
     .appointmentButton{
         font-size: 1em;
@@ -703,9 +705,8 @@ li img{
         height: 6vh;
     }
     .watchVideoIcon p{
-        font-size: 0.7em;
-        font-weight:500;
-        margin-top: 0.4em;
+        font-size: 1em;
+        font-weight:700;
     }
     .firstRightSec{
         margin-top: 1em;
@@ -731,7 +732,7 @@ li img{
         top: 12em;
     }
     .findADoc{
-        margin-top: 23em;
+        margin-top: 20em;
     }
     .findADoc h1{
         font-size: 2em;
@@ -859,9 +860,12 @@ li img{
         height: 6vh;
     }
     .watchVideoIcon p{
-        font-size: 0.7em;
+        font-size: 1em;
         font-weight:600;
     }
+    .firstLeftButtons{
+        margin-left: 2.5em;
+    }   
     .firstRightSec{
         margin-top: 0.6em;
         width:50%;;
@@ -876,6 +880,9 @@ li img{
         width:30%;
         left: -2.1em;
         top: 11em;
+    }
+    .firstLeftSec{
+        width:100%;
     }
 }
 @media only screen and (max-width:433px){
@@ -914,5 +921,14 @@ li img{
     }
     .secLeftPart input{
         width:6em;
+    }
+    .firstLeftButtons{
+        margin-left: 1em;
+    }   
+    .findADoc{
+        margin-top: 17em;
+    }
+    .secondPart{
+        margin-top: 1em;
     }
 }
