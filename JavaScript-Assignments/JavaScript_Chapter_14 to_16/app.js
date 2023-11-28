@@ -19,7 +19,7 @@
 
 // Question 05;
 
-// var Boolea = [true, false];
+// var Boolean = [true, false];
 
 // Question 06;
 
@@ -157,7 +157,7 @@
 
 // alert(arr);
 
-// Convert Array to String join menthod:
+// Convert Array to String join method:
 
 // var newArr = arr.join(" ");
 
