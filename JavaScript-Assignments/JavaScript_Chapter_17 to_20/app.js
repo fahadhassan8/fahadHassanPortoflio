@@ -75,6 +75,20 @@
 //         console.log(i);
 //     }
 // }
+// SECOND METHOD
+
+// var arr = [67,8,73,67,90,35,3];
+// var odd =[];
+// var even = [];
+// for (i = 0; i < arr.length; i++){
+//     if(arr[i]%2===0){
+//         even.push(arr[i]);
+//     }else{
+//         odd.push(arr[i]);
+//     }
+// }
+// console.log(odd);
+// console.log(even)
 
 // E ===> Series
 
@@ -103,14 +117,27 @@
 
 // Question 08
 
-// var num = [24, 53, 78, 91, 12];
-// var large = num[0];
+// var largestNum = [24,53,78,91,12];
+// var max = [0];
 
-// for (var i = 0; i < num.length; i++) {
-//   if (num[i] > large) {
-//     large = num[i];
-//   }
+// for(i = 0; i < largestNum.length; i++){
+//     if(largestNum[i] > max){
+//         max = largestNum[i];
+//     }
 // }
+// console.log("Largest Number is: ",max);
+
+// Question 09
+
+// var smallestNum = [24,53,78,91,12];
+// var min = [0];
+
+// for(i = 0; i < smallestNum.length; i++){
+//     if(min < smallestNum[i]){
+//     }
+//     min = smallestNum[i];
+// }
+// console.log("Smallest Number is: ", min);
 
 // document.write("Array item " + num);
 // document.write("<br/>The largest num is " + large);
