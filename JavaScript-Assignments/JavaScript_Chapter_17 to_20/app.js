@@ -70,11 +70,11 @@
 
 // D ===> Odd Number
 
-for(var i = 0; i < 20; i++){
-    if (i % 2 !== 0) {
-        console.log(i);
-    }
-}
+// for(var i = 0; i < 20; i++){
+//     if (i % 2 !== 0) {
+//         console.log(i);
+//     }
+// }
 // SECOND METHOD
 
 // var arr = [67,8,73,67,90,35,3];
@@ -150,5 +150,4 @@ for(var i = 0; i < 20; i++){
 //     }
 // }
 
-var palindrome = ["level", "Maam","Wow","level", "Maam","Wow"];
 
