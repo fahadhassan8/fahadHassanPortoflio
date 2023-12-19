@@ -161,7 +161,7 @@
 
 // userInput = "Pakistan";
 // console.log("User Input: ", "Pakistan");
-// console.log(userInput.lastindexOf("n"))
+// console.log(userInput[userInput.length -1]);
 
                                             // CHAPTER 25 to 30
 
