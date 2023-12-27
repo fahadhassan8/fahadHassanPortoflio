@@ -148,12 +148,18 @@
 //     alert("Input should not be empty")
 // }
 
+// Question 15
+
+var userInput = prompt("Enter your Password");
+var arrNum = [0,1,2,3,4,5,6,7,8,9];
+console.log(arrNum.indexOf(userInput));
+
+
 // Question 16
 
 // var university = "University of Karachi";
-
+// var university = university.split("")
 // for(var i=0; i<university.length; i++){
-//     university.split()
 //     console.log(university[i])
 // }
 
@@ -162,6 +168,18 @@
 // userInput = "Pakistan";
 // console.log("User Input: ", "Pakistan");
 // console.log(userInput[userInput.length -1]);
+
+// var email = "fahad hassan";
+// var splitedEmail = email.split(" ");
+// console.log(splitedEmail);
+// var fullName = `${splitedEmail[0].slice(0,1).toUpperCase() + splitedEmail[0].slice(1)} ${splitedEmail[1].slice(0,1).toUpperCase() + splitedEmail[1].slice(1)}`
+// console.log(fullName)
+
+// var splittedEmail = email.split(" ");
+// var firstName = splittedEmail[0].toUpperCase();
+// var lastName = splittedEmail[1].toUpperCase();
+// console.log("This is First name: " + firstName + " This is Last Name: " + lastName);
+// console.log(splittedEmail);
 
                                             // CHAPTER 25 to 30
 
