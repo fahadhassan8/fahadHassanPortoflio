@@ -81,7 +81,7 @@ nav ul li a{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding-top: 10rem;
+    padding-top: 2rem;
     width:100%;
     height:95vh;
     background-color:#0a0908 ;
@@ -114,6 +114,7 @@ p{
 .recruitMe-box{
     background-color:#5e503f ;
     border:1px solid #0a0908;
+    margin-top: 2em;
     align-self: center;
     cursor: pointer;
     border-radius: 10px;
@@ -126,11 +127,14 @@ p{
     animation-name: pulse;
     animation-duration: 1s;
 }
+.recruitMe-box a{
+    text-decoration: none;
+}
 .contactLogos{
     background-color: #a9927d;
     display: flex;
     justify-content: center;
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
     border-radius: 4rem;
     height:3.3rem;
     width:27rem;
@@ -172,16 +176,15 @@ p{
 .sectionTwo{
     background-color: #222222;
     width:100%;
-    height:93vh;
+    height:100vh;
 }
 .profile-about{
     background-color: #222222;
     width:100%;
     height:93vh;
-    padding-top: 10rem;
+    padding-top: 5rem;
     display: flex;
-    align-items:flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .aboutContent{
     display: flex;
@@ -189,19 +192,21 @@ p{
     justify-content: flex-start;
 }
 .aboutContent h3{
+    margin-top: 1em;
     font-family: My-Caveat;
     font-size: 3rem;
     color: #fff;
 }
 .aboutContent h4{
     font-family: My-Caveat;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: #82654b;
 }
 .aboutContent p{
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    font-size: 1.2rem;
+    line-height: 1.8em;
+    font-size: 1.1rem;
     color: #fff;
 }
 .contactMe-box{
@@ -212,7 +217,14 @@ p{
     border-radius: 10px;
     height:3rem;
     width:12rem;
+    margin-top: 1em;
     padding: auto;
+}
+.contactMe-box p{
+    margin-top: 0.5em;
+}
+.contactMe-box a{
+    text-decoration: none;
 }
 .contactMe-box:hover{
     background-color: #a9927d;
@@ -223,9 +235,9 @@ p{
     text-align: center;
 }
 .developerImage img{
-    width:20rem;
-    height: 20rem;
-    border-radius: 10rem;
+    width:26rem;
+    height: 26rem;
+    border-radius: 13rem;
 }
 .developerImage img:hover{
     animation-name: heartBeat;
@@ -242,7 +254,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:5rem;
+    /* gap:5rem; */
 }
 .skills img{
     width:6rem;
@@ -371,9 +383,9 @@ p{
     padding: 3rem 0rem;
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 .queries{
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
 }
@@ -448,6 +460,8 @@ p{
     border: 1px solid #333;
     box-shadow: #1a1a1a 0px 3px 5px;
     border-radius: 0.5rem;
+    outline: none;
+    color:#fff;
 }
 .inputBox textarea{
     margin-top: 1rem;
@@ -456,6 +470,8 @@ p{
     border: 1px solid #333;
     box-shadow: #1a1a1a 0px 3px 5px;
     border-radius: 0.5rem;
+    outline: none;
+    color: #fff;
 }
 .sendMessage-box button{
     background-color:#5e503f ;
@@ -463,9 +479,9 @@ p{
     box-shadow: #82654b;
     cursor: pointer;
     border-radius: 10px;
-    margin-top: 3rem;
+    margin-top: 2rem;
     height:3rem;
-    width:13rem;
+    width:12rem;
     font-size: 1.1rem;
     color: #fff;
     padding: auto;
@@ -515,7 +531,26 @@ p{
     font-size: 1.5rem;
 }
 @media only screen and (max-width:992px){ 
-   .cardBody{
+    .profile-about{
+        padding-top: 5em;
+    }
+    .aboutContent h3{
+        margin-top: 5em;
+        font-size: 2.3em;
+   }
+   .aboutContent h4{
+        font-size: 1.8em;
+    }
+    .aboutContent p{
+        font-size: 1em;
+   }
+   .developerImage img{
+        width: 20em;
+        height: 20em;
+        border-radius: 10em;
+        margin-top: 3em;
+   }
+    .cardBody{
         width:13.5rem;
     }
     .cardBody img{
@@ -572,7 +607,8 @@ p{
     .profile-about{
         width: 100%;
         height: 140vh;
-        padding-top: 7rem;
+        padding: 1em;
+        padding-top: 3em;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -597,14 +633,17 @@ p{
         align-self: center;
         cursor: pointer;
         border-radius: 10px;
-        height:3rem;
+        height:3.3rem;
         width:12rem;
     }
+    .contactMe-box p{
+        font-size: 1.2em;
+    }
     .developerImage img{
-        width:20rem;
-        height: 20rem;
-        border-radius: 10rem;
-        margin-bottom: 5rem;
+        margin-bottom: 15em;
+        width:26rem;
+        height: 26rem;
+        border-radius: 13rem;
     }
 }
 @media only screen and (max-width:769px){
@@ -629,6 +668,9 @@ p{
     }
     .inputBox textarea{
         width: 38rem;   
+    }
+    .profile-about{
+        padding-top: 1em;
     }    
 }
 @media only screen and (max-width:673px) {
@@ -696,9 +738,32 @@ p{
     #check:checked ~ ul{
         left:0;
     }
-       
+    .profile-about{
+        height:100vh;
+    }
+    .aboutContent{
+        margin-top: 15em;
+   }
+   .aboutContent p{
+        font-size: 0.9em;
+    }
+    .contactMe-box{
+        margin-top: 1em;
+    }
+    .contactMe-box p{
+        font-size: 1.2em;
+        margin-top: 0.3em;
+    }      
 }
 @media only screen and (max-width:575px){
+    .profile-about{
+        padding: 1em;
+        padding-top: 3em;
+    }
+    .aboutContent p{
+        font-size: 0.9em;
+    }
+
     .cardBody{
         display: block;
         margin: 0 auto;
@@ -745,6 +810,27 @@ p{
     }
 }
 @media only screen and (max-width:500px){
+    .sectionOne{
+        width:100%;
+        height:80vh; 
+    }
+    .profile-home{
+        justify-content: center;
+        margin-top: 3em;
+        width:100%;
+        height:70vh;
+    }
+    .recruitMe-box{
+        margin-top: 2em;
+    }
+    .contactLogos{
+        margin-top: 2em;
+    }
+    .developerImage img{
+        width: 20em;
+        height: 20em;
+        border-radius: 10em;
+    }
     .shortintro h1{
         font-size: 2.5rem;
     }
@@ -761,6 +847,16 @@ p{
     .sectionTwo{
         height:140vh;
     }
+    .aboutContent p{
+        font-size: 0.8em;
+    }
+    .contactMe-box{
+        margin-top: 1em;
+    }
+    .contactMe-box p{
+        font-size: 1.2em;
+        margin-top: 0.3em;
+    } 
     .footerWorkStart{
         width: 100%;
     }
@@ -798,7 +894,7 @@ p{
     }
     .skills{
         height:15vh;
-        gap:3rem;
+        /* gap:3rem; */
     }
     .skills img{
         width:4rem;
@@ -809,6 +905,11 @@ p{
     }
 }
 @media only screen and (max-width:412px) {
+    .developerImage img{
+        width: 18em;
+        height: 18em;
+        border-radius: 9em;
+    }
     .footerWorkStart{
         width: 100%;
     }
@@ -891,10 +992,10 @@ p{
         margin-top: 0.18rem;
     }
     .sectionTwo{
-        height:130vh;
+        height:115vh;
     }
     .profile-about{
-        height:120vh;
+        height:80vh;
         padding-top: 4rem;
     }
     .developerImage img{
@@ -944,18 +1045,30 @@ p{
     .shortintro h2{
         font-size: 1.5rem;
     }
+    .sectionOne{
+        width:100%;
+        height:75vh; 
+    }
+    .profile-home{
+        margin-top: 4em;
+        width:100%;
+        height:70vh;
+    }
+    .recruitMe-box{
+        margin-top: 2em;
+    }
     .contactLogos{
-        margin-bottom: 3rem;   
+        margin-top: 2em;
     }
     .sectionMidHeader h3{
         font-size: 1.5rem;
     }
     .sectionTwo{
-        height:130vh;
+        height:135vh;
     }
     .profile-about{
-        height:120vh;
-        padding-top: 4rem;
+        height:80vh;
+        padding-top: 10rem;
     }
     .developerImage img{
         padding-top: 0rem;
