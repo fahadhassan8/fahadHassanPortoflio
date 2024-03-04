@@ -11,6 +11,7 @@
 }
 body{
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 title{
     font-family: My-Caveat;

@@ -98,6 +98,7 @@ title{
     width:16rem;
     height:30vh;
 }
+
 .cssMoreAssignmentsbox h4{
     font-size: 1.1rem;
     text-align: center;
@@ -201,6 +202,7 @@ title{
         width: 20rem;
         height:32vh;
     }    
+    
 }
 @media only screen and (max-width:820px){
     .allWebImages{
