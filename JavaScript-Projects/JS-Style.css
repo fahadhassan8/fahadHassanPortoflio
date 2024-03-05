@@ -1,0 +1,213 @@
+@font-face {
+    font-family: My-Caveat;
+    src: url('./assets/fonts/Caveat-SemiBold.ttf');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0a0908;
+}
+title{
+    font-family: My-Caveat;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+label, .icn{
+    font-family: My-Caveat;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    padding: 0 40px;
+    transition: .5s;
+    color:#fff;
+}
+.firstletter{
+    font-family: My-Caveat;
+    color:#82654b;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero{
+    width: 100%;  
+    margin-top: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+}
+.head1{
+   width: 90%;
+   margin-top: 2em;
+   text-align: center;
+   font-size: 2rem;
+   color: white;
+}
+.head1 h1{
+   font-family: My-Caveat;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 20px;   
+    margin-top: 2em; 
+}
+.card{
+    width: 270px;
+    height: 280px !important;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #0a0908;
+    border-radius: 1em;
+    margin-bottom: 6em;
+    padding: 0.1em;
+}
+.card-img{
+    width: 100% !important;
+    height: 250px !important;
+    border-radius: 1em;
+    object-fit: contain;
+    height: fit-content;
+}
+.card-img img{
+    width: 100% !important;
+    height: 250px !important;
+    border-radius: 1em !important;
+}
+.card-img img:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+.card-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 0.7em;
+}
+.card-para{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+.card-para a:hover{
+    color:#82654b
+}
+.footerLastPart{
+    background-color: #1a1a1a;
+    width:100%;
+    height:auto;
+}
+.footerLast p{
+    font-family: My-Caveat;
+    text-align: center;
+    padding:2rem;
+    font-size: 1.4rem;
+    color: #fff;
+}
+.goBack a{
+    color: #fff;
+    text-decoration: none;
+    font-family: My-Caveat;
+}
+.goBack a:hover{
+    color:#82654b;
+}
+.pakolaImg img{
+    border-radius: 3em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.goTOTopBox {
+    width:2.6em;
+    height:2.6em;
+    border-radius: 1.3em;
+    position: relative;
+    left:2em;
+    bottom:2rem;
+    background-color: #82654b;
+}
+.goTOTopBox a{
+    text-decoration: none;
+    color: #0a0908;
+}
+.goTOTopBox i{
+    position: absolute;
+    left:0.5em;
+    top: 0.3em;
+    font-size: 1.5rem;
+    width:3rem;
+}
+@media only screen and (max-width:768px){
+    header{
+        justify-content: space-between;
+    }
+    label{
+        font-size: 2rem;
+        padding: 0 10px;
+    }
+    .icn{
+        font-size: 2.5rem;
+        padding: 0 10px;
+    }
+    .footerLast p{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:360px){
+    .card{
+        width: 95% !important;
+    }
+    .card-img img{
+        width: 100%;
+    }
+    label{
+        font-size: 1.5rem;
+        padding: 0px;
+    }
+    .icn{
+        font-size: 1.8rem;
+        padding: 0px;
+    }
+    .head1 h1{
+        font-size: 2.2rem;
+    }
+    .footerLast{
+        height:auto
+    }    
+}
