@@ -1,3 +1,3 @@
-myPortfolio
+My-Portfolio
 
-[https://fahadhasssansportfolio.netlify.app/](https://fahad-hassan-portfolio.netlify.app/)https://fahad-hassan-portfolio.netlify.app/
+https://fahad-hassan-portfolio.netlify.app/
