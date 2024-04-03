@@ -247,15 +247,15 @@ p{
 .skillSection{
     background-color: #1a1a1a;
     width:100%;
-    height:20vh;
+    height:16vh;
 }
 .skills{
     background-color: #1a1a1a;
-    height:20vh;
+    height:16vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* gap:5rem; */
 }
 .skills img{
     width:6rem;
@@ -347,14 +347,6 @@ p{
     cursor: pointer;
     color:#82654b;
 }
-/* .htmlAssignmentBoxTwo{
-    background-color: #0a0908;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.6rem;
-    padding: 5rem;
-} */
 .footer{
     background-color:#1a1a1a;
     width:100%;
@@ -535,10 +527,11 @@ p{
 }
 @media only screen and (max-width:992px){ 
     .profile-about{
-        padding-top: 5em;
+        padding-top: 0em;
+        column-gap: 2em;
     }
     .aboutContent h3{
-        margin-top: 5em;
+        margin-top: 2.5em;
         font-size: 2.3em;
    }
    .aboutContent h4{
@@ -547,12 +540,16 @@ p{
     .aboutContent p{
         font-size: 1em;
    }
-   .developerImage img{
+   .developerImage{
         width: 20em;
         height: 20em;
         border-radius: 10em;
-        margin-top: 3em;
+        margin-top: 8em;
    }
+   .developerImage img{
+        width: 100%;
+        height: 100%;
+    }
     .cardBody{
         width:13.5rem;
     }
@@ -609,12 +606,13 @@ p{
     }
     .profile-about{
         width: 100%;
-        height: 140vh;
+        height: auto;
         padding: 1em;
-        padding-top: 3em;
+        padding-top: 0em;
         display: flex;
         align-items: center;
         flex-direction: column;
+        column-gap: 0em;
     }
     .aboutContent{
         display: flex;
@@ -630,7 +628,7 @@ p{
     }
     .aboutContent p{
         text-align: center;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .contactMe-box{
         align-self: center;
@@ -642,14 +640,17 @@ p{
     .contactMe-box p{
         font-size: 1.2em;
     }
-    .developerImage img{
-        margin-bottom: 15em;
-        width:26rem;
-        height: 26rem;
-        border-radius: 13rem;
-    }
 }
 @media only screen and (max-width:769px){
+    .skillSection{
+        height:12vh;
+    }
+    .skills{
+        height:12vh;
+    }
+    .skills img{
+        width:4rem;
+    }
     .cardBody{
         width:9.5rem;
     }
@@ -666,11 +667,14 @@ p{
     .crdContent p a{
      display: none;
     }
+    .inputBox{
+        width:100%;
+    }
     .inputBox input{
-        width:38rem;
+        width:100%;
     }
     .inputBox textarea{
-        width: 38rem;   
+        width:100%;
     }
     .profile-about{
         padding-top: 1em;
@@ -692,15 +696,9 @@ p{
     nav ul li a{
         font-size: 0.8rem;
     }
-    .inputBox input{
-        width:30rem;
-    }
-    .inputBox textarea{
-        width:30rem;
-    }
     .sendMessage-box button{
         height:3rem;
-        width:11rem;
+        width:10rem;
         font-size: 1.1rem;
     }
 }
@@ -722,11 +720,11 @@ p{
         text-align: center;
         background:#a9927d;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
+    }
     nav ul li{
         display: block;
         margin:40px auto;
-}
+    }
     nav ul li a{
         transition: 0s;
         font-size: 0.9rem;
@@ -745,7 +743,7 @@ p{
         height:100vh;
     }
     .aboutContent{
-        margin-top: 15em;
+        margin-top: 0em;
    }
    .aboutContent p{
         font-size: 0.9em;
@@ -761,12 +759,16 @@ p{
 @media only screen and (max-width:575px){
     .profile-about{
         padding: 1em;
-        padding-top: 3em;
+        padding-top: 0em;
     }
     .aboutContent p{
         font-size: 0.9em;
     }
-
+    .contactMe-box{
+        height: 2.8rem;
+        width: 10rem;
+        font-size: 1.1rem;
+    }
     .cardBody{
         display: block;
         margin: 0 auto;
@@ -789,27 +791,8 @@ p{
         display: block;
         font-size: 0.7rem;
     }
-    .htmlAssignmentBoxTwo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 0.3rem;
-        padding-top:0rem;
-    }
     .footerWorkStart{
         width: 100%;
-    }
-    .inputBox input{
-        width:28rem;
-    }
-    .inputBox textarea{
-        width:28rem;
-    }
-    .sendMessage-box button{
-        height:3rem;
-        width:10rem;
-        font-size: 1.1rem;
     }
 }
 @media only screen and (max-width:500px){
@@ -824,8 +807,15 @@ p{
         height:70vh;
     }
     .recruitMe-box{
-        margin-top: 2em;
+        border-radius: 10px;
+        height:2.5rem;
+        width:10rem;
+        margin-top: 0em;
     }
+    .recruitMe-box p{
+        font-size: 1em;
+        margin-top: -0.3em;
+    } 
     .contactLogos{
         margin-top: 2em;
     }
@@ -854,57 +844,22 @@ p{
         font-size: 0.8em;
     }
     .contactMe-box{
-        margin-top: 1em;
-    }
-    .contactMe-box p{
-        font-size: 1.2em;
-        margin-top: 0.3em;
-    } 
-    .footerWorkStart{
-        width: 100%;
-    }
-    .inputBox textarea{
-        width:24rem;
-    }
-    .inputBox input{
-        width:28rem;
-    }
-    .inputBox textarea{
-        width: 28rem;   
-    }
-    .sendMessage-box button{
-        border-radius: 10px;
-        height:2.8rem;
-        width:10rem;
-        padding: auto;
-    }    
-}
-@media only screen and (max-width:425px){
-    .inputBox input{
-        width:23rem;
-    }
-    .inputBox textarea{
-        width: 23rem;   
-    }
-    .sendMessage-box button{
         border-radius: 10px;
         height:2.5rem;
         width:10rem;
-        padding: auto;
-    }    
-    .skillSection{
-        height:15vh;
+        margin-top: 1em;
     }
-    .skills{
-        height:15vh;
-        /* gap:3rem; */
+    .contactMe-box p{
+        font-size: 0.9em;
+        margin-top: 0.2em;
+    } 
+    .sendMessage-box button{
+        border-radius: 10px;
+        height:2.5rem;
+        width:10rem;    
     }
-    .skills img{
-        width:4rem;
-    }
-    .htmlAssignment h1{
-        font-size: 2.7rem;
-        margin-top: 1rem;
+    .footerWorkStart{
+        width: 100%;
     }
 }
 @media only screen and (max-width:412px) {
@@ -916,19 +871,7 @@ p{
     .footerWorkStart{
         width: 100%;
     }
-    .inputBox input{
-        width:23rem;
-    }
-    .inputBox textarea{
-        width: 23rem;   
-    }
-    .sendMessage-box button{
-        border-radius: 10px;
-        height:2.5rem;
-        width:10rem;
-        padding: auto;
-    }    
-    .queriesParaOne3{
+   .queriesParaOne3{
         font-size: 0.9rem;
     }
     .footerLast p{
@@ -964,55 +907,27 @@ p{
         line-height: 2rem;
         font-size: 1rem;
     }
-    .recruitMe-box{
-        border-radius: 10px;
-        height:2.5rem;
-        width:10rem;
-        padding: auto;
-    }    
+    .recruitMe-box p{
+        font-size: 1em;
+        margin-top: 0.2em;
+    } 
     .responsiveRecruit{
         margin-top: 0.18rem;
-    }
-    .contactMe-box{
-        border-radius: 10px;
-        height:2.5rem;
-        width:10rem;
-        padding: auto;
-    }
-    .inputBox input{
-        width:20.6rem;
-    }
-    .inputBox textarea{
-        width: 20.6rem;   
-    }    
-    .sendMessage-box button{
-        border-radius: 10px;
-        height:2.5rem;
-        width:10rem;
-        padding: auto;
     }
     .contactMe-box p{
         margin-top: 0.18rem;
     }
     .sectionTwo{
-        height:115vh;
+        height:auto;
     }
     .profile-about{
-        height:80vh;
-        padding-top: 4rem;
-    }
-    .developerImage img{
-        padding-top: 0rem;
-        margin-top: 5rem;
+        height:auto;
     }
     .sectionThree{
         height:auto;
     }
     .sectionFive{
         height:auto;
-    }
-    .htmlAssignmentBox{
-        /* margin-top: -4em; */
     }
     .htmlAssignment h1{
         font-size: 2.3rem;
@@ -1057,8 +972,13 @@ p{
         width:100%;
         height:70vh;
     }
-    .recruitMe-box{
-        margin-top: 2em;
+    .recruitMe-box p{
+        font-size: 0.9em;
+        margin-top: 0.1em;
+    }
+    .contactMe-box p{
+        font-size: 0.9em;
+        margin-top: 0.25em;
     }
     .contactLogos{
         margin-top: 2em;
@@ -1067,11 +987,10 @@ p{
         font-size: 1.5rem;
     }
     .sectionTwo{
-        height:135vh;
+        height:auto;
     }
     .profile-about{
-        height:80vh;
-        padding-top: 10rem;
+        height:auto;
     }
     .developerImage img{
         padding-top: 0rem;
@@ -1094,18 +1013,16 @@ p{
     .footerheadingPara p{
         font-size:0.91rem;
     }
+    .inputBox{
+        width: 20rem;
+    }
     .inputBox input{
-        width:19.5rem;
+        width:100%;
     }
     .inputBox textarea{
-        width: 19.5rem;   
+        width: 100%;   
     }    
-    .sendMessage-box button{
-        border-radius: 10px;
-        height:2.5rem;
-        width:10rem;
-        padding: auto;
-    }
+    
     .htmlAssignmentBox{
         padding-top: 0rem;
         padding-bottom: 2rem;
